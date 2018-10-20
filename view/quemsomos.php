@@ -71,7 +71,7 @@
 				
 				
 
-				<div class="col-md-6 col-sm-12" >
+				<div class="col-md-5 col-sm-12"  style="padding-top: 30px;">
 					<div class="card shadow-b">
 						<div class="card-header">
 							<h4 class="head-title">Nossas frentes de atuação</h4>
@@ -87,8 +87,8 @@
 						</div>
 					</div>
 				</div>
-				
-				<div class="col-md-3 col-sm-12" style="padding-top: 150px;">
+
+				<div class="col-md-4 col-sm-12" style="padding-top: 150px;">
 					<div class="card shadow-b">
 						<div class="card-header">
 							<h4 class="head-title">Nosso princípio de compliance</h4>
@@ -102,7 +102,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-3 col-sm-12" style="padding-top: 300px;">
+				<div class="col-md-3 col-sm-12" style="padding-top: 50px;">
 					<div class="card shadow-b">
 						<div class="card-header">
 							<h4 class="head-title">Fontes de recursos</h4>
