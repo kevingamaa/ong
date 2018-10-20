@@ -7,16 +7,18 @@ body{
 	background-color: #3333cc!important;
 }
 
-.navbar-dark .navbar-nav .nav-link{
-	color: #fff;
-	border-right: 1px solid #3366ff;
+.navbar-light .navbar-nav .nav-link{
+	/*color: #fff;*/
+	/*border-right: 1px solid #3366ff;*/
 	padding:10px 20px; 
 	transition: 0.3s all;
-	: 
+
 }
 
-.navbar-dark .navbar-nav .nav-link:hover{
-	background-color: #3366ff;
+.navbar-light .navbar-nav .nav-link:hover{
+	font-size: 17px;
+	color: #3366ff;
+	text-decoration: underline #3366ff;
 }
 
 .carousel-item{
@@ -26,22 +28,16 @@ body{
 	height: 500px;
 }
 
-#header>.botaoArm{
-	position: absolute;
-	background-color: black;
-}
-
 .indiceNav{
 	color: blue;
 }
 
-
-#headerprojetos{
-	background-image: url('../../img/banner_4.jpg');
+.projeto{
 	height: 400px;
+	background-image: url('../../img/banner_4.jpg');
 }
 
-#headerprojetos, .carousel-img{
+.projeto, .carousel-img{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center  fixed;

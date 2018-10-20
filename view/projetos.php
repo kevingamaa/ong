@@ -6,10 +6,11 @@
 
 </head>
 <body class="bg-light">
-	<?php include_once('build/navbar.php') ?>
+	<?php 
+		include_once('build/navbar.php') 
+	?>
 
-	<header id="headerprojetos">
-		
+	<header class="projeto" style=" ">
 
 	</header>
 
