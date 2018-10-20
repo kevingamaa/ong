@@ -24,12 +24,8 @@ body{
 }
 .carousel-img{
 	height: 500px;
-	background-repeat: no-repeat;
-	background-position: center center  fixed;
-	background-size: cover; 
 }
-<<<<<<< HEAD
-=======
+
 #header>.botaoArm{
 	position: absolute;
 	background-color: black;
@@ -38,4 +34,16 @@ body{
 .indiceNav{
 	color: blue;
 }
->>>>>>> 05e91c7712a5b49fd1627674b37f7baafdaf646a
+
+
+#headerprojetos{
+	background-image: url('../../img/banner_4.jpg');
+	height: 400px;
+}
+
+#headerprojetos, .carousel-img{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center  fixed;
+	background-size: cover; 
+}
