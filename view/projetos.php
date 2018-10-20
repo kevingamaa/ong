@@ -37,7 +37,7 @@
 					<strong class="indiceNav">Fax: </strong><small>55 11 5686.3288</small><br>
 				<strong class="indiceNav">Endereço: </strong><small>Rua Padre chico, 320 - Santo Amaro - SP</small><br>
 				
-				<a href="doacoes" class="btn btn-block btn-outline-primary mt-4">
+				<a href="doacoes" class="btn btn-block btn-outline-light mt-4">
 					FAÇA SUA DOAÇÃO
 				</a>
 				<br>
