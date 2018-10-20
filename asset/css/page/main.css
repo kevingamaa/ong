@@ -28,3 +28,14 @@ body{
 	background-position: center center  fixed;
 	background-size: cover; 
 }
+<<<<<<< HEAD
+=======
+#header>.botaoArm{
+	position: absolute;
+	background-color: black;
+}
+
+.indiceNav{
+	color: blue;
+}
+>>>>>>> 05e91c7712a5b49fd1627674b37f7baafdaf646a

@@ -8,31 +8,31 @@
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Quem somos <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/<?=pasta?>/quemsomos">Quem somos <span class="sr-only">(current)</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Projetos</a>
+                <a class="nav-link" href="/<?=pasta?>/projetos">Projetos</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Doações</a>
+                <a class="nav-link" href="/<?=pasta?>/doacoes">Doações</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Eventos</a>
+                <a class="nav-link" href="/<?=pasta?>/eventos">Eventos</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Fotos</a>
+                <a class="nav-link" href="/<?=pasta?>/fotos">Fotos</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Parceiros</a>
+                <a class="nav-link" href="/<?=pasta?>/parceiros">Parceiros</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Contato</a>
+                <a class="nav-link" href="/<?=pasta?>/contato">Contato</a>
             </li>
         </ul>
 
