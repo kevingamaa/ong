@@ -87,9 +87,9 @@
 					</div>
 
 				
-					<div class="col-md-4">
+					<div class="col-md-4 mt-4">
 						<h4 class="h4">Como Ajudar</h4>
-						<p class="text-justify pt-3 ">
+						<p class="text-justify pt-3  ">
 							Cadastre-se aqui para receber informações sobre nossos eventos.
 						</p>
 						<img src="/<?=pasta?>/asset/img/como-ajudar-home.jpg">
