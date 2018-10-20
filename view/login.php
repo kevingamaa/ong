@@ -25,7 +25,7 @@
 				</ol>
 
 		        <div class="carousel-item active">
-		        	<div data-bg="/<?=pasta?>/asset/img/banner_1.jpg" class="carousel-img d-block w-100"></div>
+		        	<div data-bg="/<?=pasta?>/asset/img/banner_1.jpg" class="carousel-img d-block w-100" ></div>
 		            <!-- <img class="d-block w-100" src="/<?=pasta?>/asset/img/banner_1.jpg" alt="First slide"> -->
 		        </div>
 		        <div class="carousel-item">
@@ -68,9 +68,11 @@
 	<script type="text/javascript">
 		$('.carousel-img').ready(function(){
 
-			$.each($(this), function(e, i){
-				
-				$(this).css('background-image', $(this).data('bg'));
+			$.each($('.carousel-img'), function(e, i){
+				// console.log($(this).data('bg'))
+				var bg =$(this).data('bg') ;
+				console.log(bg)
+				$(this).css('background-image', 'url('+bg+')');
 			});
 
 		});
