@@ -20,14 +20,11 @@ body{
 }
 
 .carousel-item{
-	max-height: 400px;
+	max-height: 500px;
 }
 .carousel-img{
+	height: 500px;
 	background-repeat: no-repeat;
 	background-position: center center  fixed;
-	background-size: cover; /*Css padrão*/
-}
-#header>.botaoArm{
-	position: absolute;
-	background-color: black;
+	background-size: cover; 
 }

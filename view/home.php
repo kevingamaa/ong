@@ -10,8 +10,10 @@
 
 	<header id="header">
 		
+
 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 		    <div class="carousel-inner">
+
 		    	<ol class="carousel-indicators">
 				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -21,38 +23,42 @@
 				</ol>
 
 		        <div class="carousel-item active">
-		        	<div class="botaoArm">
-						<button type="button" class="btn btn-lg btn-info">
-							Como ajudar
-						</button>
-					</div>
-		        	<div data-bg="/<?=pasta?>/asset/img/banner_1.jpg" class="carousel-img d-block w-100" ></div>
-		            <!-- <img class="d-block w-100" src="/<?=pasta?>/asset/img/banner_1.jpg" alt="First slide"> -->
+		        	<div data-bg="/<?=pasta?>/asset/img/banner_1.jpg" class="carousel-img d-block w-100 p-4" ></div>
 		        </div>
 		        <div class="carousel-item">
 		        	<div data-bg="/<?=pasta?>/asset/img/banner_2.jpg" class="carousel-img d-block w-100"></div>
 
-		            <!-- <img class="d-block w-100" src="/<?=pasta?>/asset/img/banner_2.jpg" alt="Second slide"> -->
 		        </div>
 		        <div class="carousel-item">
-		            <img class="d-block w-100" src="/<?=pasta?>/asset/img/banner_3.jpg" alt="Forty slide">
+		        	<div data-bg="/<?=pasta?>/asset/img/banner_3.jpg" class="carousel-img d-block w-100"></div>
 		        </div>
 		        <div class="carousel-item">
-		            <img class="d-block w-100" src="/<?=pasta?>/asset/img/banner_4.jpg" alt="Fifth slide">
+		        	<div data-bg="/<?=pasta?>/asset/img/banner_4.jpg" class="carousel-img d-block w-100"></div>
 		        </div>
 
 		        <div class="carousel-item">
-		            <img class="d-block w-100" src="/<?=pasta?>/asset/img/banner_5.jpg" alt="Sixth slide">
+		        	<div data-bg="/<?=pasta?>/asset/img/banner_5.jpg" class="carousel-img d-block w-100"></div>
 		        </div>
 		    </div>
 
 		    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
 		    </a>
+
 		    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
 		    </a>
-		</div>
-	</header>
 
+		</div>
+
+	</header>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 text-right">
+				<a class="btn btn-outline-light btn-lg"> href="<?=pasta?>">
+					
+				</a>
+			</div>
+		</div>
+	</div>
 	<div class="card">
 		<div class="card-header">
 			<h4 class="card-title">Titulos</h4>
