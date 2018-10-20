@@ -12,7 +12,6 @@ body{
 	border-right: 1px solid #3366ff;
 	padding:10px 20px; 
 	transition: 0.3s all;
-	: 
 }
 
 .navbar-dark .navbar-nav .nav-link:hover{
@@ -32,7 +31,7 @@ body{
 }
 
 .indiceNav{
-	color: blue;
+	color: #595959;
 }
 
 

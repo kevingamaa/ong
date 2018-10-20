@@ -54,7 +54,7 @@
 	<div class="container-fluid p-4  bg-info">
 		<div class="row">
 			<div class="col-md-7 text-white">
-				O CCA depende de voluntários para suas atividades. Caso tenha interesse envie o seu contato com sua área de experiencia aqui. Ou ligue para 5686-3288 às 6as feiras das 8:00 as 12:00.
+				O CCA depende de voluntários para suas atividades. Caso tenha interesse envie o seu contato com sua área de experiência aqui. Ou ligue para 5686-3288 às Sexta-Feira entre 8:00 á 12:00.
 			</div>
 			<div class="col-md-5 text-center">
 				<a class="btn btn-outline-light btn-lg" href="/<?=pasta?>/doacoes">
@@ -77,7 +77,7 @@
 						<h4 class="h4">Quem Somos</h4>
 						<img src="/<?=pasta?>/asset/img/quem-somos-home.jpg">
 						<p class="text-justify pt-3 mt-1">
-							omos uma entidade sem fins lucrativos que atende crianças de 0 a 18 anos. 
+							Somos uma entidade sem fins lucrativos que atende crianças de 0 a 18 anos. 
 							Apoiamos o processo de desenvolvimento e formação de crianças e adolescentes atendidos em nossos três principais projetos – Casa Lar (Serviços de Acolhimento de Crianças e Adolescentes), Saica (Serviço de Acolhimento Institucional de Crianças e Adolescentes) e CCA (Contra Turno Escolar). 
 							Para isso, procuramos oferecer um ambiente acolhedor, baseado em respeito e carinho, que possibilite o desenvolvimento integral das crianças e adolescentes atendidos na Entidade.
 						</p>
