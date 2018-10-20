@@ -1,0 +1,29 @@
+body{
+	color: #4c4c4c;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.bg-primary{
+	background-color: #3333cc!important;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color: #fff;
+	border-right: 1px solid #3366ff;
+	padding:10px 20px; 
+	transition: 0.3s all;
+	: 
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+	background-color: #3366ff;
+}
+
+.carousel-item, .carousel-img{
+	max-height: 400px;
+}
+
+#header>.botaoArm{
+	position: absolute;
+	background-color: black;
+}
