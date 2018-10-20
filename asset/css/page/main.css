@@ -24,7 +24,8 @@ body{
 }
 .carousel-img{
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center center  fixed;
+	background-size: cover; /*Css padrão*/
 	height: 400px;
 }
 #header>.botaoArm{

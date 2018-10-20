@@ -9,11 +9,7 @@
 
 
 	<header id="header">
-		<div class="botaoArm">
-			<button type="button" class="btn btn-lg btn-info">
-				Como ajudar
-			</button>
-		</div>
+		
 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 		    <div class="carousel-inner">
 		    	<ol class="carousel-indicators">
@@ -25,6 +21,11 @@
 				</ol>
 
 		        <div class="carousel-item active">
+		        	<div class="botaoArm">
+						<button type="button" class="btn btn-lg btn-info">
+							Como ajudar
+						</button>
+					</div>
 		        	<div data-bg="/<?=pasta?>/asset/img/banner_1.jpg" class="carousel-img d-block w-100" ></div>
 		            <!-- <img class="d-block w-100" src="/<?=pasta?>/asset/img/banner_1.jpg" alt="First slide"> -->
 		        </div>
