@@ -3,8 +3,13 @@
 <head>
 	<?php include_once('build/head.php') ?>
 	<title>ONG - Casa da criança</title>
+	<style type="text/css">
+		.header-title{
+			text-transform: uppercase;
+		}
+	</style>
 </head>
-<body class="bg-light">
+<body class="table-warning">
 	<?php include_once('build/navbar.php') ?>
 
 	<header class="quemsomos">
@@ -68,8 +73,6 @@
 
 		<div class="container-fluid bg-quemsomos">
 			<div class="row p-4">
-				
-				
 
 				<div class="col-md-5 col-sm-12"  style="padding-top: 30px;">
 					<div class="card shadow-b">
@@ -113,6 +116,44 @@
 							</p>
 						</div>
 					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid mt-4">
+			<div class="row-fluid">
+				<div class="col-md-12 text-center">
+					<hr width="50">
+					<hr width="70">
+					<hr width="100">
+					<h4 class="h4">Centro de Complementação Escolar</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item list-group-item-success text-dark">FRENTES DE ATUAÇÃO DA CCA</li>
+						<li class="list-group-item">Biblioteca</li>
+						<li class="list-group-item">Sala de Informática</li>
+						<li class="list-group-item">Reforço escolar</li>
+						<li class="list-group-item">Oficinas de música e leitura</li>
+						<li class="list-group-item">Atividade livre na internet</li>
+					</ul>
+				</div>
+				<div class="col-md-6 p-4">
+					<iframe style="width: 100%" height="315"
+					src="https://www.youtube.com/embed/tS4457hEiQk">
+					</iframe>
+				</div>
+				<div class="col-md-3">
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item list-group-item-success text-dark">FRENTES DE ATUAÇÃO DA CCA</li>
+						<li class="list-group-item">Oficinas de artesanato</li>
+						<li class="list-group-item">Oficinas preparatórias para mercado de trabalho</li>
+						<li class="list-group-item">Grupos de orientação sexual</li>
+						<li class="list-group-item">Atividades pedagógico-recreativo</li>
+						<li class="list-group-item">Atendimento odontológico e psicossocial</li>
+					</ul>
 				</div>
 			</div>
 		</div>

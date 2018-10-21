@@ -5,7 +5,7 @@
 	<title>ONG - Casa da criança</title>
 
 </head>
-<body class="bg-light">
+<body class="table-warning">
 	<?php 
 		include_once('build/navbar.php') 
 	?>

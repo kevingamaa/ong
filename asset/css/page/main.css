@@ -1,23 +1,27 @@
 body{
 	color: #4c4c4c;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
 }
 
+main{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
 .bg-primary{
-	background-color: #3333cc!important;
+	/*background-color:  #005ce6!important;*/
 }
 
 .navbar-light .navbar-nav .nav-link{
-	/*color: #fff;*/
+	color: #fff;
 	/*border-right: 1px solid #3366ff;*/
 	padding:10px 20px; 
 	transition: 0.3s all;
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
-	font-size: 17px;
-	color: #3366ff;
-	text-decoration: underline #3366ff;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: underline #fff;
 }
 
 .carousel-item{
@@ -41,16 +45,23 @@ body{
 
 .bg-quemsomos{
 	background-image: url('../../img/banner_1.jpg');
+	text-transform: none;
 }
 .quemsomos, .projeto{
 	height: 450px;
 }
 .projeto, .carousel-img, .quemsomos,.bg-quemsomos{
-	background-size: cover;
+
 	background-repeat: no-repeat;
-	background-position: center center  fixed;
+	background-position: center;
 	background-size: cover; 
 }
+
 .shadow-b{
 	box-shadow: 0px 5px 20px black;
+	transition: all 0.3s ;
+}
+
+.shadow-b:hover{
+	background-color: #e6ffe6;
 }
