@@ -6,13 +6,18 @@
 </head>
 <body class="table-warning">
 	<?php include_once('build/navbar.php') ?>
+
 	<header class="doacoes">
 		<div class="container-fluid">
 			
 		
 			<div class="row">
-				<div class="col-md-12" style="padding-top: 100px;">
-					 <h1>Vire padrinho de uma crinça</h1>
+				<div class="col-md-8 offset-md-4 inverse-shadow text-right p-3 "  >
+					 <h1 class="h1 text-white text-shadow" >Torne-se padrinho de uma crinça</h1>
+					 <small class="small text-white">Ajude o com oque você poder</small><br>
+					 <a href="/<?=pasta?>/contato" class="btn btn-info btn-lg">
+					 	Entrar Em contato
+					 </a>
 				</div>
 			</div>
 		</div>

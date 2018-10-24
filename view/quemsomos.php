@@ -22,7 +22,7 @@
 
 	<main role="main">
 		<div class="container-fluid">
-			<div class="card">
+			<div class="card bg-light">
 				<div class="card-header">
 					<div class="row">
 						<div class="col-md-12 p-4 text-center">
@@ -43,14 +43,14 @@
 						</div>
 						<div class="col-md-3">
 							<strong>Nossa Missão</strong>
-							<p class="card-text">
+							<p class="card-text font-weight-light pb-3">
 								Acolher e promover o desenvolvimento de crianças e adolescentes em situação de vulnerabilidade, formando cidadãos conscientes de seus direitos e deveres.
 							</p>
 						</div>
 
 						<div class="col-md-3">
 							<strong>Nossos Valores</strong>
-							<p class="card-text">
+							<p class="card-text font-weight-light pb-3">
 								Compromisso com a criança e o adolescentes, respeitando as individualidades
 								Ética, neutralidade e transparência
 								Excelência nas práticas de gestão
@@ -60,7 +60,7 @@
 
 						<div class="col-md-3">
 							<strong>Visão de Futuro</strong>
-							<p class="card-text">
+							<p class="card-text font-weight-light pb-3">
 								Contribuir com a formação das crianças, adolescentes e famílias, plantando valores que façam a diferença na inclusão social.
 							</p>
 						</div>
@@ -71,7 +71,8 @@
 		</div>
 
 
-		<div class="container-fluid bg-quemsomos">
+		<div class="container-fluid bg-quemsomos table-success ">
+			
 			<div class="row p-4">
 
 				<div class="col-md-5 col-sm-12"  style="padding-top: 30px;">
@@ -80,7 +81,7 @@
 							<h4 class="head-title">Nossas frentes de atuação</h4>
 						</div>
 						<div class="card-body">
-							<p class="card-text">
+							<p class="card-text ">
 								O Centro da Criança e do Adolescente - CCA atende 60 crianças e adolescentes (06 a 14 anos) separadas em duas salas de aula por período e conta com educadores de diferentes linguagens. 
 								A Casa Lar atende 10 crianças e adolescentes (de 0 a 17 anos e 11 meses) em acolhimento institucional. 
 								O Saica atende 20 crianças e adolescentes (de 0 a 17 anos e 11 meses) em acolhimento institucional.
@@ -120,40 +121,89 @@
 			</div>
 		</div>
 
-		<div class="container-fluid mt-4">
-			<div class="row-fluid">
-				<div class="col-md-12 text-center">
-					<hr width="50">
-					<hr width="70">
-					<hr width="100">
-					<h4 class="h4">Centro de Complementação Escolar</h4>
+		<div class="container-fluid ">
+			<div class="card bg-light">
+				<div class="card-body">
+					<div class="row-fluid">
+						<div class="col-md-12 text-center">
+							<hr width="50">
+							<hr width="70">
+							<hr width="100">
+							<h4 class="h4">Centro de Complementação Escolar</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3">
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item list-group-item-success text-dark">FRENTES DE ATUAÇÃO DA CCA</li>
+								<li class="list-group-item">Biblioteca</li>
+								<li class="list-group-item">Sala de Informática</li>
+								<li class="list-group-item">Reforço escolar</li>
+								<li class="list-group-item">Oficinas de música e leitura</li>
+								<li class="list-group-item">Atividade livre na internet</li>
+							</ul>
+						</div>
+						<div class="col-md-6 p-4">
+							<iframe style="width: 100%" height="315"
+							src="https://www.youtube.com/embed/tS4457hEiQk">
+							</iframe>
+						</div>
+						<div class="col-md-3">
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item list-group-item-success text-dark">FRENTES DE ATUAÇÃO DA CCA</li>
+								<li class="list-group-item">Oficinas de artesanato</li>
+								<li class="list-group-item">Oficinas preparatórias para mercado de trabalho</li>
+								<li class="list-group-item">Grupos de orientação sexual</li>
+								<li class="list-group-item">Atividades pedagógico-recreativo</li>
+								<li class="list-group-item">Atendimento odontológico e psicossocial</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-3">
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item list-group-item-success text-dark">FRENTES DE ATUAÇÃO DA CCA</li>
-						<li class="list-group-item">Biblioteca</li>
-						<li class="list-group-item">Sala de Informática</li>
-						<li class="list-group-item">Reforço escolar</li>
-						<li class="list-group-item">Oficinas de música e leitura</li>
-						<li class="list-group-item">Atividade livre na internet</li>
-					</ul>
-				</div>
-				<div class="col-md-6 p-4">
-					<iframe style="width: 100%" height="315"
-					src="https://www.youtube.com/embed/tS4457hEiQk">
-					</iframe>
-				</div>
-				<div class="col-md-3">
-					<ul class="list-group list-group-flush">
-						<li class="list-group-item list-group-item-success text-dark">FRENTES DE ATUAÇÃO DA CCA</li>
-						<li class="list-group-item">Oficinas de artesanato</li>
-						<li class="list-group-item">Oficinas preparatórias para mercado de trabalho</li>
-						<li class="list-group-item">Grupos de orientação sexual</li>
-						<li class="list-group-item">Atividades pedagógico-recreativo</li>
-						<li class="list-group-item">Atendimento odontológico e psicossocial</li>
-					</ul>
+		</div>
+
+		<div class="container table-info mt-4 shadow-lg">
+			<div class="card">
+				
+				<div class="card-body table-light">
+					
+					<div class="row">
+						<div class="col-md-12 text-left">
+							<h4 class="header-title">Diretoria</h4>
+							
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 font-weight-light border shadow">
+							<p >
+								<strong class="font-weight-bold"> Presidente: </strong><br>	Ieda Nunes Bize
+							</p>
+							<hr>
+							<p>
+								<strong class="font-weight-bold"> Vice Presidente: </strong><br>	Meiling Canizares
+							</p>
+							<hr>
+							<p>
+								<strong class="font-weight-bold">Secretária: </strong><br>	Maria Beatriz Calazans
+							</p>
+							<hr>
+							<p>
+								<strong class="font-weight-bold"> 2º Secretária: </strong><br>	Aparecida de Carvalho
+							</p>
+
+						<!-- 	<p>
+							P:	
+							:	
+								
+								
+							Tesoureiro:	Carmine Maglio Neto
+							2ª Tesoureira:	Dinei Antônio Datti
+							Conselho Fiscal:	André Luís Friança, Lúcia Oliveira Dias e Marli Aparecida de Souza Correa
+							Suplente:	Na
+							</p> -->
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

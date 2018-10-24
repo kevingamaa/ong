@@ -5,4 +5,4 @@
 <meta name="location" content="Sao Paulo, Brazil">
 <meta name="keywords" content="abrigo, casa de crianças, casa da criança, doação, instituição sem fins lucrativos">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="/<?=pasta?>/asset/css/page/main.css">
+<link rel="stylesheet" type="text/css" href="/<?=pasta?>/asset/css/main.css">
