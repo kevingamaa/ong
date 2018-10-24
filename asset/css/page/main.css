@@ -1,3 +1,7 @@
+html, body{
+	height: 100%;
+}
+
 body{
 	color: #4c4c4c;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -47,11 +51,16 @@ main{
 	background-image: url('../../img/banner_1.jpg');
 	text-transform: none;
 }
-.quemsomos, .projeto{
-	height: 450px;
-}
-.projeto, .carousel-img, .quemsomos,.bg-quemsomos{
 
+.doacoes{
+	background-image: url('../../img/padrinho.jpg');
+	height: 100%;
+}
+
+.quemsomos, .projeto{
+	height: 75%;
+}
+.projeto, .carousel-img, .quemsomos,.bg-quemsomos, .doacoes{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover; 

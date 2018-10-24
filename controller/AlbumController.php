@@ -2,10 +2,19 @@
 
 namespace controller;
 
+use model\Foto;
+
 class Album{
+
     public function index(){
-        include('view/album.php');
+    	$fotos = new Foto();
+    	
+    	
+
+    	include('view/album.php');
     }
+
+ 
 
     
    
