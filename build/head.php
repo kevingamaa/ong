@@ -47,6 +47,9 @@ Facebook: 		https://www.facebook.com/fh5co
 <!-- Bootstrap  -->
 <link rel="stylesheet" href="css/bootstrap.css">
 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+
+
 <!-- 
 Default Theme Style 
 You can change the style.css (default color purple) to one of these styles
@@ -83,23 +86,19 @@ PURPLE
 
 /* For Demo Purposes Only ( You can delete this anytime :-) */
 #colour-variations {
-	padding: 10px;
+	/*padding: 10px;*/
 	-webkit-transition: 0.5s;
   	-o-transition: 0.5s;
   	transition: 0.5s;
 	width: 140px;
 	position: fixed;
 	left: 0;
-	top: 100px;
+	bottom: 10%;
 	z-index: 999999;
-	background: #fff;
+	background: transparent;
 	/*border-radius: 4px;*/
 	border-top-right-radius: 4px;
 	border-bottom-right-radius: 4px;
-	-webkit-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
-	-moz-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
-	-ms-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
-	box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
 }
 #colour-variations.sleep {
 	margin-left: -140px;
