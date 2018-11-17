@@ -211,7 +211,8 @@ PURPLE
 	outline: none;
 }
 .dropdown-menu .dropdown-item{
-	color: #000 !important;
+	background-color: transparent!important;
+	border: none !important;
 }
 </style>
 <!-- End demo purposes only -->
