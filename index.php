@@ -41,7 +41,7 @@
 							<div class="fh5co-right-position">
 						-->
 						<div class="fh5co-left-position">
-							<h2 class="animate-box">O mundo precisa de soluções ousadas</h2>
+							<h2 class="animate-box">Ajude Nossa ong</h2>
 							<small>Seja voluntario para ajudar a ong</small>
 							<p class="animate-box">
 								
