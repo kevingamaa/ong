@@ -1,11 +1,13 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-info shadow-sm fixed-top">
-   
+<nav class="navbar navbar-expand-lg  navbar-dark bg-transparent shadow-sm fixed-top">
+    
+    <a class="navbar-brand" href="/<?=pasta?>/">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <button class="navbar-toggler"   type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon" ></span>
-    </button>
+    <!-- <div class="col-md-4"></div> -->
 
-    <div class="collapse navbar-collapse" id="navbarText">
+    <div class="collapse navbar-collapse " id="navbarText">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item ">
                 <a class="nav-link" href="/<?=pasta?>/quemsomos">Quem somos <span class="sr-only">(current)</span></a>
@@ -35,10 +37,6 @@
                 <a class="nav-link" href="/<?=pasta?>/contato">Contato</a>
             </li>
         </ul>
-
-        <span class="navbar-text disable text-white">
-            Casa da criança Santo Amaro
-        </span>
     </div>
 
 </nav>
