@@ -8,6 +8,7 @@
 		<?php
 			require_once('build/head.php');
 		?>
+		<title>Parceiros - Casa da criança e do adolescente </title>
 	</head>
 	<body>
 

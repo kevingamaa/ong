@@ -8,6 +8,7 @@
 		<?php
 			require_once('build/head.php');
 		?>
+		<title>Casa da criança e do adolescente </title>
 	</head>
 
 
@@ -28,7 +29,7 @@
 		?>
 		<!-- #fh5co-header -->
 
-		<section id="fh5co-hero" class="js-fullheight" style="background-image: url(images/hero_bg.jpg);" data-next="yes">
+		<section id="fh5co-hero" class="js-fullheight" style="background-image: url(img/sejabemvindos.jpg);" data-next="yes">
 			<div class="fh5co-overlay"></div>
 			<div class="container">
 				<div class="fh5co-intro js-fullheight">
@@ -40,15 +41,21 @@
 							<div class="fh5co-right-position">
 						-->
 						<div class="fh5co-left-position">
-							<h2 class="animate-box">Create Awesome Things for Better Web</h2>
-							<p class="animate-box"><a href="https://vimeo.com/channels/staffpicks/93951774" class="btn btn-outline popup-vimeo btn-video"><i class="icon-play2"></i> Watch video</a> <a href="http://freehtml5.co" target="_blank" class="btn btn-primary">Visit FREEHTML5.co</a></p>
+							<h2 class="animate-box">O mundo precisa de soluções ousadas</h2>
+							<small>Seja voluntario para ajudar a ong</small>
+							<p class="animate-box">
+								
+								<a href="http://freehtml5.co" target="_blank" class="btn btn-primary">
+									Se-voluntariar
+								</a>
+							</p>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="fh5co-learn-more animate-box">
 				<a href="#" class="scroll-btn">
-					<span class="text">Explore more about us</span>
+					<span class="text">Saiba mais</span>
 					<span class="arrow"><i class="icon-chevron-down"></i></span>
 				</a>
 			</div>
@@ -60,72 +67,57 @@
 			<div class="container">
 				<div class="row row-bottom-padded-md">
 					<div class="col-md-6 col-md-offset-3 text-center">
-						<h2 class="fh5co-lead animate-box">Our Products</h2>
-						<p class="fh5co-sub-lead animate-box">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+						<h2 class="fh5co-lead animate-box">Nossos projetos</h2>
+						<p class="fh5co-sub-lead animate-box">
+							Focamos para dar o melhor para as crianças 
+						</p>
 					</div>
 				</div>
 				<div class="row">
 					
 					<div class="col-md-4 col-sm-6 col-xxs-12 animate-box">
-						<a href="images/img_1.jpg" class="fh5co-project-item image-popup">
-							<img src="images/img_1.jpg" alt="Image" class="img-responsive">
+						<a href="img/turma4.jpg" class="fh5co-project-item image-popup">
+							<img src="img/turma4.jpg" alt="Image" class="img-responsive">
 							<div class="fh5co-text">
-								<h2>Beautiful Sunrise</h2>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+								<h2>O Centro da Criança e do Adolescente - CCA/SEMEAR</h2>
+								<p>
+									atendemos uma média de 70 crianças e adolescentes (06 a 14 anos) por ano em situação de vulnerabilidade e risco, contribuindo na sua proteção integral em conjunto com a família e Estado, promovendo o desenvolvimento de suas potencialidades, a partir de ações sócio educativas. 
+								</p>
 							</div>
 						</a>
 					</div>
 
 					<div class="col-md-4 col-sm-6 col-xxs-12 animate-box">
-						<a href="images/img_2.jpg" class="fh5co-project-item image-popup">
-							<img src="images/img_2.jpg" alt="Image" class="img-responsive">
+						<a href="img/turma7.jpg" class="fh5co-project-item image-popup">
+							<img src="img/turma7.jpg" alt="Image" class="img-responsive">
 							<div class="fh5co-text">
-								<h2>Cute Little Dog</h2>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+								<h2>A Casa Lar e Saica </h2>
+								<p>
+									atendem 30 crianças em acolhimento institucional divididas em duas casas, tendo como prinicipal objetivo acolhe-las até que tenham sua guarda restabelecida pelo Estado. 
+								</p>
 							</div>
 						</a>
 					</div>
 
 					<div class="col-md-4 col-sm-6 col-xxs-12 animate-box">
-						<a href="images/img_3.jpg" class="fh5co-project-item image-popup">
-							<img src="images/img_3.jpg" alt="Image" class="img-responsive">
+						<a href="img/920078_258107440995346_248871960_o.jpg" class="fh5co-project-item image-popup">
+							<img src="img/920078_258107440995346_248871960_o.jpg" alt="Image" class="img-responsive">
 							<div class="fh5co-text">
-								<h2>A Wooden Bridge</h2>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+								<h2>ATIVIDADES</h2>
+								<p>
+									A Casa da Criança e do Adolescente oferece atividades como: 
+									Esportes e Recreação
+									Cidadania, Valores, Direitos e Deveres
+									Ensino de Informática
+									Atendimento Psicológico
+									Sensibilização Ambiental
+									Passeios Culturais
+									Ensino de Música
+									Aulas de Inglês
+								</p>
 							</div>
 						</a>
 					</div>
-
-					<div class="col-md-4 col-sm-6 col-xxs-12 animate-box">
-						<a href="images/img_4.jpg" class="fh5co-project-item image-popup">
-							<img src="images/img_4.jpg" alt="Image" class="img-responsive">
-							<div class="fh5co-text">
-								<h2>Puppy & I in the Farm</h2>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
-							</div>
-						</a>
-					</div>
-
-					<div class="col-md-4 col-sm-6 col-xxs-12 animate-box">
-						<a href="images/img_5.jpg" class="fh5co-project-item image-popup">
-							<img src="images/img_5.jpg" alt="Image" class="img-responsive">
-							<div class="fh5co-text">
-								<h2>A Big Wave of the Blue Sea</h2>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
-							</div>
-						</a>
-					</div>
-
-					<div class="col-md-4 col-sm-6 col-xxs-12 animate-box">
-						<a href="images/img_6.jpg" class="fh5co-project-item image-popup">
-							<img src="images/img_6.jpg" alt="Image" class="img-responsive">
-							<div class="fh5co-text">
-								<h2>Foggy Pine Trees</h2>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
-							</div>
-						</a>
-					</div>
-					
 					
 				</div>
 			</div>

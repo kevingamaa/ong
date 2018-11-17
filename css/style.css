@@ -395,7 +395,8 @@ body {
 #fh5co-hero .fh5co-intro > div h2 {
   font-size: 70px;
   line-height: 87px;
-  font-weight: 100;
+  font-weight: 600;
+  text-transform: uppercase;
   color: white;
 }
 @media screen and (max-width: 992px) {
