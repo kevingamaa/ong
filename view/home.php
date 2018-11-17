@@ -52,14 +52,11 @@
 			</div>
 		</section>
 
-		<!-- END #fh5co-hero -->
-
-
 		<section id="fh5co-projects">
 			<div class="container">
 				<div class="row row-bottom-padded-md">
 					<div class="col-md-6 col-md-offset-3 text-center">
-						<h2 class="fh5co-lead animate-box">Our Products</h2>
+						<h2 class="fh5co-lead animate-box">APOIADORES </h2>
 						<p class="fh5co-sub-lead animate-box">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
 					</div>
 				</div>
@@ -129,7 +126,7 @@
 				</div>
 			</div>
 		</section>
-		<!-- END #fh5co-projects -->
+
 
 		<section id="fh5co-features">
 			<div class="container">
@@ -203,8 +200,6 @@
 			</div>
 		</section>	
 
-		<!-- END #fh5co-features -->
-
 
 		<section id="fh5co-features-2">
 			<div class="container">
@@ -245,14 +240,13 @@
 				</div>
 			</div>
 		</section>
-		<!-- END #fh5co-features-2 -->
 		
 		<section id="fh5co-testimonials">
 			<div class="container">
 				<div class="row row-bottom-padded-sm">
 					<div class="col-md-6 col-md-offset-3 text-center">
 						<div class="fh5co-label animate-box">Testimonials</div>
-						<h2 class="fh5co-lead animate-box">Join the 1 Million Users using Our Products </h2>
+						<h2 class="fh5co-lead animate-box">Join the 1 Million Users using APOIADORES  </h2>
 					</div>
 				</div>
 				<div class="row">
@@ -290,7 +284,6 @@
 				</div>
 			</div>
 		</section>
-		<!-- END #fh5co-testimonials -->
 
 		<section id="fh5co-subscribe">
 			<div class="container">
@@ -304,7 +297,6 @@
 
 			</div>
 		</section>
-		<!-- END #fh5co-subscribe -->
 
 		
 		<?php
