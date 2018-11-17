@@ -60,7 +60,9 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="fh5co-feature">
 								<div class="fh5co-icon animate-box">
-									<i class="icon-power"></i>
+									<a href="https://www.leroymerlin.com.br/" target="__blank">
+									<img src="img/PARCEIROS/logo-leroy-merlin.png">	
+									</a>
 								</div>
 								<h3 class="animate-box">LEROY MERLIN </h3>
 								
@@ -69,7 +71,7 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="fh5co-feature">
 								<div class="fh5co-icon animate-box">
-									<i class="icon-flag2"></i>
+									<img src="img/PARCEIROS/fumcad_logo.png">
 								</div>
 								<h3 class="animate-box">FUMCAD</h3>
 								
@@ -79,7 +81,7 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="fh5co-feature">
 								<div class="fh5co-icon animate-box">
-									<i class="icon-anchor"></i>
+									<img src="img/PARCEIROS/meyer.jpg" style="max-height: 500px; max-width: 400px">	
 								</div>
 								<h3 class="animate-box">MACHADO MEYER</h3>
 								
