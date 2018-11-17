@@ -1,0 +1,91 @@
+html, body{
+	height: 100%;
+}
+
+body{
+	color: #4c4c4c;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+main{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.bg-primary{
+	/*background-color:  #005ce6!important;*/
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: #fff;
+	/*border-right: 1px solid #3366ff;*/
+	padding:10px 20px; 
+	transition: 0.3s all;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	font-size: 16px;
+	color: #fff;
+	text-decoration: underline #fff;
+}
+
+.carousel-item{
+	max-height: 500px;
+}
+.carousel-img{
+	height: 500px;
+}
+
+.indiceNav{
+	color: #808080;
+}
+
+.projeto{
+	background-image: url('../img/banner_4.jpg');
+}
+
+.quemsomos{
+	background-image: url('../img/banner_2.jpg');
+}
+
+.bg-quemsomos{
+	/*background-image: url('../img/banner_1.jpg');*/
+	text-transform: none;
+	font-weight: 400;
+}
+
+.doacoes{
+	background-image: url('../img/padrinho.jpg');
+	height: 100%;
+	padding-top: 85%;
+}
+
+.doacoes .position-absolute {
+	position: absolute;
+	right: 0%;
+}
+
+.quemsomos, .projeto{
+	height: 75%;
+}
+.projeto, .carousel-img, .quemsomos,.bg-quemsomos, .doacoes{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+}
+
+.shadow-b{
+	box-shadow: 0px 5px 20px black;
+	transition: all 0.3s ;
+}
+
+.shadow-b:hover{
+	background-color: #e6ffe6;
+}
+
+.inverse-shadow{
+	background: linear-gradient(260deg, rgba(204, 204, 0,0.8), rgba(204, 204, 0,0.0));
+}
+.text-shadow{
+	text-shadow: 1px 1px 1px black;
+}
