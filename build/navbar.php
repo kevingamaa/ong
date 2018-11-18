@@ -13,14 +13,17 @@
 			          Empresa <i class="fas fa-caret-down"></i>
 			        </a>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-			          <a class="dropdown-item" href="#">Sobre nós</a>
+			          <a class="dropdown-item" href="sobre.php">Nossa equipe</a>
+			          <div class="dropdown-divider"></div>
+			          <a class="dropdown-item" href="#sobre">Sobre nós</a>
+			          <div class="dropdown-divider"></div>
 			          <a class="dropdown-item" href="#">Projetos</a> 
 			          <div class="dropdown-divider"></div>
 			          <a class="dropdown-item" href="#">Eventos</a>
 			        </div>
 			    </li>
 			</ul>
-			<h1 id="fh5co-logo"><a href="index.html"><img src="img/logo.png" ></a></h1>
+			<h1 id="fh5co-logo"><a href="index.php"><img src="img/logo.png" ></a></h1>
 			<ul class="pull-right right-menu">
 				
 				<li class="fh5co-cta-btn"><a href="#">Realizar uma Doação</a></li>
