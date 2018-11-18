@@ -2,9 +2,10 @@
 	<div class="container">
 		<nav role="navigation">
 			<ul class="pull-left left-menu">
-				<li><a href="#">Eventos</a></li>
+				
 				
 				<li><a href="doacoes.php">Doações</a></li>
+				<li><a href="album.php">Album</a></li>
 				<!-- <li><a href="doacoes.php">Projetos</a></li> -->
 				<!-- <li><a href="doacoes.php">Eventos</a></li> -->
 
@@ -17,7 +18,7 @@
 			          <div class="dropdown-divider"></div>
 			          <a class="dropdown-item" href="#sobre">Sobre nós</a>
 			          <div class="dropdown-divider"></div>
-			          <a class="dropdown-item" href="">Projetos</a> 
+			          <a class="dropdown-item" href="projetos.php">Projetos</a> 
 			          <div class="dropdown-divider"></div>
 			          <a class="dropdown-item" href="parceiros.php">Parceiros</a> 
 			        </div>
