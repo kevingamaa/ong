@@ -2,8 +2,8 @@
 	<div class="container">
 		<nav role="navigation">
 			<ul class="pull-left left-menu">
-				<!-- <li><a href="sobre.php">Sobre nós</a></li> -->
-				<a class="dropdown-item" href="#">Eventos</a>
+				<li><a href="#">Eventos</a></li>
+				
 				<li><a href="doacoes.php">Doações</a></li>
 				<!-- <li><a href="doacoes.php">Projetos</a></li> -->
 				<!-- <li><a href="doacoes.php">Eventos</a></li> -->
@@ -19,7 +19,7 @@
 			          <div class="dropdown-divider"></div>
 			          <a class="dropdown-item" href="">Projetos</a> 
 			          <div class="dropdown-divider"></div>
-			          <li><a href="parceiros.php">Parceiros</a></li>
+			          <a class="dropdown-item" href="parceiros.php">Projetos</a> 
 			        </div>
 			    </li>
 			</ul>
