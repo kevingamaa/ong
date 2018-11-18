@@ -51,9 +51,8 @@
 							<ul class="fh5co-social">
 								<li><a href="http://twitter.com/casadacriancasa"><i class="icon-twitter"></i></a></li>
 								<li><a href="#"><i class="icon-facebook"></i></a></li>
-								<li><a href="#"><i class="icon-google-plus"></i></a></li>
-								<li><a href="#"><i class="fas fa-"></i></a></li>
-								<li><a href="http://www.linkedin.com/"><i class="icon-linkdin"></i></a></li>
+								<li><a href="http://www.flickr.com/photos/casadacrianca/"><i class="fab fa-flickr"></i></a></li>
+								<li><a href="http://www.linkedin.com/"><i class="fab fa-linkedin"></i></a></li>
 							</ul>
 						</div>
 					</div>
