@@ -71,7 +71,7 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="fh5co-feature">
 								<div class="fh5co-icon animate-box">
-									<img src="img/PARCEIROS/fumcad_logo.png">
+									<a href="https://fumcad.prefeitura.sp.gov.br/forms/principal.aspx" target="__blank"><img src="img/PARCEIROS/fumcad_logo.png"></a>
 								</div>
 								<h3 class="animate-box">FUMCAD</h3>
 								
@@ -81,7 +81,7 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="fh5co-feature">
 								<div class="fh5co-icon animate-box">
-									<img src="img/PARCEIROS/meyer.jpg" style="max-height: 500px; max-width: 400px">	
+									<a href="https://www.machadomeyer.com.br/" target="__blank"><img src="img/PARCEIROS/meyer.jpg"></a>
 								</div>
 								<h3 class="animate-box">MACHADO MEYER</h3>
 								
@@ -91,7 +91,7 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="fh5co-feature">
 								<div class="fh5co-icon animate-box">
-									<i class="icon-paragraph"></i>
+									<a href="http://inaflex.com/" target="__blank"><img src="img/PARCEIROS/1395854580logo-935-5-jpg.jpg"></a>
 								</div>
 								<h3 class="animate-box">INAFLEX</h3>
 								
@@ -101,7 +101,7 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="fh5co-feature">
 								<div class="fh5co-icon animate-box">
-									<i class="icon-umbrella"></i>
+									<a href="https://www.comecanha.com.br/" target="__blank"><img src="img/PARCEIROS/download.png"></a>
 								</div>
 								<h3 class="animate-box">COMEÇANHA ADVOGADOS ASSOCIADOS</h3>
 								
@@ -110,7 +110,7 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="fh5co-feature">
 								<div class="fh5co-icon animate-box">
-									<i class="icon-toggle"></i>
+									<a href="http://www.legrand.com.br/" target="__blank"><img src="img/PARCEIROS/Legrand-Red-JPG.jpg"></a>
 								</div>
 								<h3 class="animate-box">LEGRAND</h3>
 								
@@ -118,11 +118,21 @@
 						</div>
 						<div class="clearfix visible-sm-block"></div>
 					</div>
+
+
+
+
+
+
+
+
+		
+
 					<div class="row">
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="fh5co-feature">
 								<div class="fh5co-icon animate-box">
-									<i class="icon-power"></i>
+									<a href="http://www.santaaldeia.com.br/" target="__blank"><img src="img/PARCEIROS/ok00.jpg"></a>
 								</div>
 								<h3 class="animate-box">SANTA ALDEIA</h3>
 								
@@ -131,7 +141,7 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="fh5co-feature">
 								<div class="fh5co-icon animate-box">
-									<i class="icon-flag2"></i>
+									<a href="http://tcre.com.br/" target="__blank"><img src="img/PARCEIROS/tcre_engenharia-1445023468.jpg"></a>
 								</div>
 								<h3 class="animate-box">TCRE</h3>
 								
@@ -141,9 +151,9 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="fh5co-feature">
 								<div class="fh5co-icon animate-box">
-									<i class="icon-anchor"></i>
+									<a href="http://www.turin-carnes.com.br/" target="__blank"><img src="img/PARCEIROS/download (1).png"></a>
 								</div>
-								<h3 class="animate-box">TURIN</h3>
+								<h3 class="animate-box">TURIN CARNES</h3>
 								
 							</div>
 						</div>
@@ -151,7 +161,7 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="fh5co-feature">
 								<div class="fh5co-icon animate-box">
-									<i class="icon-paragraph"></i>
+									<a href=http://www.symrise.com/" target="__blank"><img src="img/PARCEIROS/maxresdefault.jpg"></a>
 								</div>
 								<h3 class="animate-box">SYMRISE</h3>
 								
@@ -161,7 +171,7 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="fh5co-feature">
 								<div class="fh5co-icon animate-box">
-									<i class="icon-umbrella"></i>
+									<a href="http://www.pratocheio.org.br/" target="__blank"><img src="img/PARCEIROS/images.png"></a>
 								</div>
 								<h3 class="animate-box">PRATO CHEIO</h3>
 								
@@ -170,40 +180,33 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="fh5co-feature">
 								<div class="fh5co-icon animate-box">
-									<i class="icon-toggle"></i>
+									<a href="https://www.airliquide.com/pt-br/brasil" target="__blank"><img src="img/PARCEIROS/novo-logo-air-liquide.jpg"></a>
 								</div>
 								<h3 class="animate-box">AIR LIQUIDE</h3>
 								
 							</div>
 						</div>
-						<div class="clearfix visible-sm-block"></div>
 					</div>
+
 					<div class="row">
+						
+						
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="fh5co-feature">
 								<div class="fh5co-icon animate-box">
-									<i class="icon-power"></i>
+									<a href="https://www.bnpparibas.com.br/" target="__blank"><img src="img/PARCEIROS/BNP-Paribas-Logo.jpg"></a>
 								</div>
 								<h3 class="animate-box">BNP PARIBAS</h3>
 								
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-6 col-xs-12">
-							<div class="fh5co-feature">
-								<div class="fh5co-icon animate-box">
-									<i class="icon-flag2"></i>
-								</div>
-								<h3 class="animate-box">MGFARTE</h3>
-								
-							</div>
-						</div>
 						<div class="clearfix visible-sm-block"></div>
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="fh5co-feature">
 								<div class="fh5co-icon animate-box">
-									<i class="icon-anchor"></i>
+									<a href="http://www.mgfarte.com.br/" target="__blank"><img src="img/PARCEIROS/logo_mgfarte.png"></a>
 								</div>
-								<h3 class="animate-box">CASTOR HORTIFRUTI</h3>
+								<h3 class="animate-box">MGFARTE</h3>
 								
 							</div>
 						</div>
@@ -211,39 +214,49 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="fh5co-feature">
 								<div class="fh5co-icon animate-box">
-									<i class="icon-paragraph"></i>
+									<a href="http://www.castoralimentos.com.br/" target="__blank"><img src="img/PARCEIROS/download (2).png"></a>
+								</div>
+								<h3 class="animate-box">CASTOR ALIMENTOS</h3>
+								
+							</div>
+						</div>
+						<div class="clearfix visible-sm-block"></div>
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="fh5co-feature">
+								<div class="fh5co-icon animate-box">
+									<a href="http://www.itaiquara.com.br/" target="__blank"><img src="img/PARCEIROS/download.jpg"></a>
 								</div>
 								<h3 class="animate-box">ITAIQUARA</h3>
 								
 							</div>
 						</div>
-						<div class="clearfix visible-sm-block"></div>
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="fh5co-feature">
 								<div class="fh5co-icon animate-box">
-									<i class="icon-umbrella"></i>
+									<a href="http://www.rascal.com.br/" target="__blank"><img src="img/PARCEIROS/_RASCAL_LOGO_ACENTO_-01 (1).png"></a>
 								</div>
-								<h3 class="animate-box">RÁSCAL</h3>
+								<h3 class="animate-box">RASCAL</h3>
 								
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="fh5co-feature">
 								<div class="fh5co-icon animate-box">
-									<i class="icon-toggle"></i>
+									<a href="https://www.redial.net.br/" target="__blank"><img src="img/PARCEIROS/REDIAL.png"></a>
 								</div>
-								<h3 class="animate-box">RE*DIAL</h3>
+								<h3 class="animate-box">REDIAL</h3>
 								
 							</div>
 						</div>
 						<div class="clearfix visible-sm-block"></div>
-						
 					</div>
+
+
 					<div class="row">
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="fh5co-feature">
 								<div class="fh5co-icon animate-box">
-									<i class="icon-power"></i>
+									<a href="http://www.mcanizares.com.br/" target="__blank"><img src="img/PARCEIROS/mcanizares.png"></a>
 								</div>
 								<h3 class="animate-box">MCANIZARES</h3>
 								
@@ -252,7 +265,7 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="fh5co-feature">
 								<div class="fh5co-icon animate-box">
-									<i class="icon-flag2"></i>
+									<a href="https://www.knauf-isopor.com.br/" target="__blank"><img src="img/PARCEIROS/KNAUF.png"></a>
 								</div>
 								<h3 class="animate-box">KNAUF INDUSTRIES </h3>
 								
@@ -262,7 +275,7 @@
 						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="fh5co-feature">
 								<div class="fh5co-icon animate-box">
-									<i class="icon-anchor"></i>
+									<a href="http://www.consigaz.com.br//" target="__blank"><img src="img/PARCEIROS/consigaz.jpg"></a>
 								</div>
 								<h3 class="animate-box">CONSIGAZ</h3>
 								
