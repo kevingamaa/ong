@@ -32,7 +32,7 @@ Facebook: 		https://www.facebook.com/fh5co
 <meta name="twitter:card" content="" />
 
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-<link rel="shortcut icon" href="favicon.ico">
+<link rel="shortcut icon" href="favicon.png">
 
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,600,400italic,700' rel='stylesheet' type='text/css'>
 
@@ -47,8 +47,8 @@ Facebook: 		https://www.facebook.com/fh5co
 <!-- Bootstrap  -->
 <link rel="stylesheet" href="css/bootstrap.css">
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-
+<link rel="stylesheet"  media="all" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+<link rel="stylesheet" type="text/css" media="all" href="dist/css/jgallery.min.css" />
 
 <!-- 
 Default Theme Style 

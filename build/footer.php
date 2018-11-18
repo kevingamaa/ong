@@ -113,7 +113,7 @@
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/magnific-popup-options.js"></script>
 
-	
+	<script type="text/javascript" src="dist/js/jgallery.min.js"></script>
 
 	<!-- End demo purposes only -->
 
