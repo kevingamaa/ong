@@ -17,7 +17,7 @@
 			          <div class="dropdown-divider"></div>
 			          <a class="dropdown-item" href="#sobre">Sobre nós</a>
 			          <div class="dropdown-divider"></div>
-			          <a class="dropdown-item" href="#">Projetos</a> 
+			          <a class="dropdown-item" href="">Projetos</a> 
 			          <div class="dropdown-divider"></div>
 			          <li><a href="parceiros.php">Parceiros</a></li>
 			        </div>
