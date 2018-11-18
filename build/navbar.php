@@ -10,7 +10,7 @@
 
 				<li class="nav-item dropdown">
 			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			          Empresa <i class="fas fa-caret-down"></i>
+			          Saiba mais <i class="fas fa-caret-down"></i>
 			        </a>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 			          <a class="dropdown-item" href="sobre.php">Nossa equipe</a>
@@ -19,7 +19,7 @@
 			          <div class="dropdown-divider"></div>
 			          <a class="dropdown-item" href="">Projetos</a> 
 			          <div class="dropdown-divider"></div>
-			          <a class="dropdown-item" href="parceiros.php">Projetos</a> 
+			          <a class="dropdown-item" href="parceiros.php">Parceiros</a> 
 			        </div>
 			    </li>
 			</ul>
