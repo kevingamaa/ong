@@ -1,3 +1,9 @@
+<form target="pagseguro" action="https://pagseguro.uol.com.br/checkout/doacao.jhtml" method="post" style="display: none" class="pagseguro-form">
+	<input type="hidden" name="email_cobranca" value="financeiro@casadacriancasantoamaro.org.br">
+	<input type="hidden" name="moeda" value="BRL">
+	<input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/doacoes/120x53-doar.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!">
+</form>
+
 <footer id="fh5co-footer">
 			<div class="container">
 				<div class="row row-bottom-padded-md">
@@ -7,7 +13,7 @@
 							<ul class="fh5co-links">
 								<li><a href="sobre.php">Sobre nós</a></li>
 								<li><a href="projetos.php">projetos</a></li>
-								<li><a href="doacoes.php"></a></li>
+								<li><a href="doacoes.php">Doações</a></li>
 								<!-- <li><a href="#">Pricing</a></li> -->
 								<!-- <li><a href="#">Team</a></li> -->
 							</ul>
@@ -46,7 +52,7 @@
 								<li><a href="http://twitter.com/casadacriancasa"><i class="icon-twitter"></i></a></li>
 								<li><a href="#"><i class="icon-facebook"></i></a></li>
 								<li><a href="#"><i class="icon-google-plus"></i></a></li>
-								<li><a href="#"><i class="icon-instagram"></i></a></li>
+								<li><a href="#"><i class="fas fa-"></i></a></li>
 								<li><a href="http://www.linkedin.com/"><i class="icon-linkdin"></i></a></li>
 							</ul>
 						</div>
@@ -82,9 +88,9 @@
 	<!-- For demo purposes Only ( You may delete this anytime :-) -->
 	<div id="colour-variations">
 	
-		<a href="doacoes.php" class="btn btn-warning btn-block">
+		<button type="button" class="btn btn-primary btn-doar btn-block">
 			Doar
-		</a>
+		</button>
 	</div>
 	<!-- End demo purposes only -->
 
@@ -117,11 +123,35 @@
 	-->
 	<script src="js/jquery.cookie.js"></script>
 	<script type="text/javascript">
-		var $doc = $('html, body');
-		$('a').click(function() {
-		    $doc.animate({
-		        scrollTop: $( $.attr(this, 'href') ).offset().top
-		    }, 500);
-		    return false;
+		
+		
+		
+		$(document).ready(function(){
+		  // Add smooth scrolling to all links
+		  $("a").on('click', function(event) {
+
+		    // Make sure this.hash has a value before overriding default behavior
+		    if (this.hash !== "") {
+		      // Prevent default anchor click behavior
+		      event.preventDefault();
+
+		      // Store hash
+		      var hash = this.hash;
+
+		      // Using jQuery's animate() method to add smooth page scroll
+		      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+		      $('html, body').animate({
+		        scrollTop: $(hash).offset().top
+		      }, 800, function(){
+		   
+		        // Add hash (#) to URL when done scrolling (default click behavior)
+		        window.location.hash = hash;
+		      });
+		    } // End if
+		  });
+		});
+
+		$('.btn-doar').click(function(){
+			$('.pagseguro-form').submit();
 		});
 	</script>

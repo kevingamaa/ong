@@ -45,7 +45,7 @@
 							<small>Seja voluntario para ajudar a ong</small>
 							<p class="animate-box">
 								
-								<a href="http://freehtml5.co" target="_blank" class="btn btn-primary">
+								<a href="#" class="btn btn-primary">
 									Se-voluntariar
 								</a>
 							</p>

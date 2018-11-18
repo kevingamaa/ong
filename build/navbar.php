@@ -26,7 +26,7 @@
 			<h1 id="fh5co-logo"><a href="index.php"><img src="img/logo.png" ></a></h1>
 			<ul class="pull-right right-menu">
 				
-				<li class="fh5co-cta-btn"><a href="#">Realizar uma Doação</a></li>
+				<li class="fh5co-cta-btn"><a href="javascript:void(0)" class="btn-doar">Realizar uma Doação</a></li>
 			</ul>
 		</nav>
 	</div>
