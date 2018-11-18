@@ -3,38 +3,38 @@
 				<div class="row row-bottom-padded-md">
 					<div class="col-md-3 col-sm-6 col-xs-12 animate-box">
 						<div class="fh5co-footer-widget">
-							<h3>Company</h3>
+							<h3>Empresa</h3>
 							<ul class="fh5co-links">
-								<li><a href="#">About Us</a></li>
-								<li><a href="#">Careers</a></li>
-								<li><a href="#">Feature Tour</a></li>
-								<li><a href="#">Pricing</a></li>
-								<li><a href="#">Team</a></li>
+								<li><a href="sobre.php">Sobre nós</a></li>
+								<li><a href="projetos.php">projetos</a></li>
+								<li><a href="doacoes.php"></a></li>
+								<!-- <li><a href="#">Pricing</a></li> -->
+								<!-- <li><a href="#">Team</a></li> -->
 							</ul>
 						</div>
 					</div>
 
 					<div class="col-md-3 col-sm-6 col-xs-12 animate-box">
 						<div class="fh5co-footer-widget">
-							<h3>Support</h3>
+							<h3>Registros Institucionais:</h3>
 							<ul class="fh5co-links">
-								<li><a href="#">Knowledge Base</a></li>
-								<li><a href="#">24/7 Call Support</a></li>
-								<li><a href="#">Video Demos</a></li>
-								<li><a href="#">Terms of Use</a></li>
-								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#"> Utilidade Pública Federal Portaria nº1026 de 09/01/01 Publ. DOE 12/11/01</a></li>
+								<li><a href="#">Utilidade Pública Federal Portaria n44.732 de 29/02/00 Publ. DOE 01/03/00</a></li>
 							</ul>
 						</div>
 					</div>
 
 					<div class="col-md-3 col-sm-6 col-xs-12 animate-box">
 						<div class="fh5co-footer-widget">
-							<h3>Contact Us</h3>
+							<h3>Fale conosco</h3>
 							<p>
-								<a href="mailto:info@freehtml5.co">info@freehtml5.co</a> <br>
-								198 West 21th Street, <br>
-								Suite 721 New York NY 10016 <br>
-								<a href="tel:+123456789">+12 34  5677 89</a>
+								<a href="mailto:casadacriancacca@hotmail.com">casadacriancacca@hotmail.com</a> <br>
+								Santo Amaro Grossarl Rua Padre Chico, 320 <br>
+								Santo Amaro - São Paulo - SP / Cep: 04747-090 <br>
+
+								<a href="tel:+551156863288">Tel. 55 11 5686.3288 / 3624.2660</a>
+								<a href="tel:+551156863288">Fax. 55 11 5686.3288</a>
+
 							</p>
 						</div>
 					</div>
@@ -43,11 +43,11 @@
 						<div class="fh5co-footer-widget">
 							<h3>Follow Us</h3>
 							<ul class="fh5co-social">
-								<li><a href="#"><i class="icon-twitter"></i></a></li>
+								<li><a href="http://twitter.com/casadacriancasa"><i class="icon-twitter"></i></a></li>
 								<li><a href="#"><i class="icon-facebook"></i></a></li>
 								<li><a href="#"><i class="icon-google-plus"></i></a></li>
 								<li><a href="#"><i class="icon-instagram"></i></a></li>
-								<li><a href="#"><i class="icon-youtube-play"></i></a></li>
+								<li><a href="http://www.linkedin.com/"><i class="icon-linkdin"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -59,8 +59,17 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<p class="fh5co-left"><small>&copy; 2016 <a href="index.html">Guide</a> free html5. All Rights Reserved.</small></p>
-							<p class="fh5co-right"><small class="fh5co-right">Designed by <a href="http://freehtml5.co" target="_blank">FREEHTML5.co</a> Demo Images: <a href="http://unsplash.com" target="_blank">Unsplash</a></small></p>
+							<p class="fh5co-left">
+								<small>&copy; 2018 <a href="index.php"><img src="img/logo.png"></a> </small>
+							</p>
+							<p class="fh5co-right">
+								<small class="fh5co-right">
+									Desenvolvido por: 
+									<a href="https://www.linkedin.com/in/guilherme-gama-529b5415b" target="_blank">Guilherme Gama</a>, &nbsp;
+									<a href="#" target="_blank">Deivid Bitchner</a>, &nbsp;
+									<a href="https://www.linkedin.com/in/vitor-kevin-048811165" target="_blank">Vito Kevin</a>
+								</small>
+							</p>
 						</div>
 					</div>
 				</div>
@@ -107,3 +116,12 @@
 	The code below is to toggle the layout to boxed or wide 
 	-->
 	<script src="js/jquery.cookie.js"></script>
+	<script type="text/javascript">
+		var $doc = $('html, body');
+		$('a').click(function() {
+		    $doc.animate({
+		        scrollTop: $( $.attr(this, 'href') ).offset().top
+		    }, 500);
+		    return false;
+		});
+	</script>

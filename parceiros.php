@@ -279,10 +279,7 @@
 			
 			
 
-							
-					</div>
-				</div>
-			</section>
+						
 			
 			<?php
 				require_once('build/footer.php');
