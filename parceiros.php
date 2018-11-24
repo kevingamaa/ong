@@ -19,7 +19,7 @@
 			<?php
 				require_once('build/navbar.php');
 			?>
-			<section id="fh5co-hero" class="no-js-fullheight" style="background-image: url(img/850_400_diacriancas.jpg);" data-next="yes">
+			<section id="fh5co-hero" class="no-js-fullheight" style="background-image: url(img/parceiro.jpg);" data-next="yes">
 				<div class="fh5co-overlay"></div>
 				<div class="container">
 					<div class="fh5co-intro no-js-fullheight">
