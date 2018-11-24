@@ -2,13 +2,8 @@
 	<div class="container">
 		<nav role="navigation">
 			<ul class="pull-left left-menu">
-				
-				
 				<li><a href="doacoes.php">Doações</a></li>
-				<li><a href="album.php">Album</a></li>
-				<!-- <li><a href="doacoes.php">Projetos</a></li> -->
-				<!-- <li><a href="doacoes.php">Eventos</a></li> -->
-
+				<!-- <li><a href="album.php">Album</a></li> -->
 				<li class="nav-item dropdown">
 			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			          Saiba mais <i class="fas fa-caret-down"></i>
@@ -16,11 +11,11 @@
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 			          <a class="dropdown-item" href="sobre.php">Nossa equipe</a>
 			          <div class="dropdown-divider"></div>
-			          <a class="dropdown-item" href="#sobre">Sobre nós</a>
+			          <a class="dropdown-item" href="parceiros.php">Parceiros</a> 
 			          <div class="dropdown-divider"></div>
 			          <a class="dropdown-item" href="projetos.php">Projetos</a> 
 			          <div class="dropdown-divider"></div>
-			          <a class="dropdown-item" href="parceiros.php">Parceiros</a> 
+			          <a class="dropdown-item" href="album.php">Album</a> 
 			        </div>
 			    </li>
 			</ul>

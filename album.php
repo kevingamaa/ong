@@ -88,15 +88,14 @@
 	<script type="text/javascript">
 	
 
-$( function() {
-	$( '#album' ).jGallery( {
-		autostart: true,
-		zoomSize: '100%'
-	});
-});
+		$( function() {
+			$( '#album' ).jGallery( {
+				autostart: true,
+				zoomSize: '100%'
+			});
+		});
 
 
-</script>
 
 	</script>
 </html>
