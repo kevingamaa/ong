@@ -11,13 +11,6 @@
 		<title>Doações - Casa da criança e do adolescente </title>
 	</head>
 
-
-	<!-- 
-		INFO:
-		Add 'boxed' class to body element to make the layout as boxed style.
-		Example: 
-		<body class="boxed">	
-	-->
 	<body>
 
 	<!-- Loader -->

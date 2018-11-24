@@ -2,22 +2,16 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <meta name="viewport"    content="width=device-width, initial-scale=1">
-<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-<meta name="keywords"    content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-<meta name="author"      content="" />
-<link rel="shortcut icon" href="favicon.png">
+<meta name="description" content="Somos uma entidade sem fins lucrativos que atende crianças de 0 a 18 anos. Hoje graças as parcerias estabelecidas atendemos no nosso núcleo sócio educativo crianças em regime de meioperíodo, assim como outras crianças em situação de vulnerabilidade social em nossas 02 Casas Lar." />
+<meta name="keywords"    content="abrigo, casa de crianças, casa da criança, doação, instituição sem fins lucrativos" />
+<meta name="author"      content="GDV CODDX" />
 
-<meta property="og:title" content=""/>
-<meta property="og:image" content=""/>
-<meta property="og:url" content=""/>
-<meta property="og:site_name" content=""/>
-<meta property="og:description" content=""/>
-<meta name="twitter:title" content="" />
-<meta name="twitter:image" content="" />
-<meta name="twitter:url" content="" />
-<meta name="twitter:card" content="" />
+<meta property="og:url" content="http://www.casadacriancasantoamaro.org.br"/>
+<meta property="og:site_name" content="casadacriancasantoamaro"/>
+<meta property="og:description" content="Somos uma entidade sem fins lucrativos que atende crianças de 0 a 18 anos. Hoje graças as parcerias estabelecidas atendemos no nosso núcleo sócio educativo crianças em regime de meioperíodo, assim como outras crianças em situação de vulnerabilidade social em nossas 02 Casas Lar."/>
 
-<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
 <link rel="shortcut icon" href="favicon.png">
 
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,600,400italic,700' rel='stylesheet' type='text/css'>
@@ -36,41 +30,15 @@
 <link rel="stylesheet"  media="all" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 <link rel="stylesheet" type="text/css" media="all" href="dist/css/jgallery.min.css" />
 
-<!-- 
-Default Theme Style 
-You can change the style.css (default color purple) to one of these styles
 -->
 <link rel="stylesheet" href="css/style.css">
 
-<!-- Styleswitcher ( This style is for demo purposes only, you may delete this anytime. ) -->
+
 <link rel="stylesheet" id="theme-switch" href="css/style.css">
-<!-- End demo purposes only -->
 
 
 <style>
-/* For demo purpose only */
 
-/*
-GREEN
-8dc63f
-RED
-FA5555
-TURQUOISE
-27E1CE
-BLUE 
-2772DB
-ORANGE
-FF7844
-YELLOW
-FCDA05
-PINK
-F64662
-PURPLE
-7045FF
-
-*/
-
-/* For Demo Purposes Only ( You can delete this anytime :-) */
 #colour-variations {
 	/*padding: 10px;*/
 	-webkit-transition: 0.5s;
@@ -200,12 +168,8 @@ PURPLE
 	border: none !important;
 }
 </style>
-<!-- End demo purposes only -->
 
 
-<!-- Modernizr JS -->
+
+
 <script src="js/modernizr-2.6.2.min.js"></script>
-<!-- FOR IE9 below -->
-<!--[if lt IE 9]>
-<script src="js/respond.min.js"></script>
-<![endif]-->

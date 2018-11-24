@@ -24,12 +24,7 @@
 				<div class="container">
 					<div class="fh5co-intro no-js-fullheight">
 						<div class="fh5co-intro-text">
-							<!-- 
-								INFO:
-								Change the class to 'fh5co-right-position' or 'fh5co-center-position' to change the layout position
-								Example:
-								<div class="fh5co-right-position">
-							-->
+			
 							<div class="fh5co-center-position">
 								<h2 class="animate-box">NOSSOS PARCEIROS FAZEM A DIFERENÇA</h2>
 								
@@ -44,7 +39,7 @@
 					</a>
 				</div>
 			</section>
-			<!-- END #fh5co-hero -->
+	
 
 			<section id="fh5co-features">
 				<div class="container">

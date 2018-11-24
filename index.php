@@ -12,12 +12,7 @@
 	</head>
 
 
-	<!-- 
-		INFO:
-		Add 'boxed' class to body element to make the layout as boxed style.
-		Example: 
-		<body class="boxed">	
-	-->
+
 	<body>
 
 	<!-- Loader -->
@@ -34,12 +29,7 @@
 			<div class="container">
 				<div class="fh5co-intro js-fullheight">
 					<div class="fh5co-intro-text">
-						<!-- 
-							INFO:
-							Change the class to 'fh5co-right-position' or 'fh5co-center-position' to change the layout position
-							Example:
-							<div class="fh5co-right-position">
-						-->
+					
 						<div class="fh5co-left-position">
 							<h2 class="animate-box">Casa da criança</h2>
 							<small>Seja voluntario para ajudar a ong</small>
@@ -60,7 +50,7 @@
 				</a>
 			</div>
 		</section>
-		<!-- END #fh5co-hero -->
+
 
 
 		<section id="fh5co-projects">
@@ -122,7 +112,7 @@
 				</div>
 			</div>
 		</section>
-		<!-- END #fh5co-projects -->
+
 
 		
 
@@ -174,7 +164,7 @@
 				</div>
 			</div>
 		</section>
-		<!-- END #fh5co-features-2 -->
+
 	
 		
 		<?php

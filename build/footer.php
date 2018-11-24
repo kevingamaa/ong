@@ -14,8 +14,7 @@
 								<li><a href="sobre.php">Sobre nós</a></li>
 								<li><a href="projetos.php">projetos</a></li>
 								<li><a href="doacoes.php">Doações</a></li>
-								<!-- <li><a href="#">Pricing</a></li> -->
-								<!-- <li><a href="#">Team</a></li> -->
+
 							</ul>
 						</div>
 					</div>
@@ -85,18 +84,18 @@
 
 			
 		</footer>
-		<!-- END #fh5co-footer -->
+		
 	</div>
 	<!-- END #fh5co-page -->
 	
-	<!-- For demo purposes Only ( You may delete this anytime :-) -->
+	
 	<div id="colour-variations">
 	
 		<button type="button" class="btn btn-primary btn-doar btn-block">
 			Doar
 		</button>
 	</div>
-	<!-- End demo purposes only -->
+	
 
 	
 	<!-- jQuery -->
@@ -115,16 +114,10 @@
 
 	<script type="text/javascript" src="dist/js/jgallery.min.js"></script>
 
-	<!-- End demo purposes only -->
 
-	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
 
-	<!-- 
-	INFO:
-	jQuery Cookie for Demo Purposes Only. 
-	The code below is to toggle the layout to boxed or wide 
-	-->
+
 	<script src="js/jquery.cookie.js"></script>
 	<script type="text/javascript">
 		

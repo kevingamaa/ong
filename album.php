@@ -11,12 +11,7 @@
 	</head>
 
 
-	<!-- 
-		INFO:
-		Add 'boxed' class to body element to make the layout as boxed style.
-		Example: 
-		<body class="boxed">	
-	-->
+	
 	<body>
 
 	<!-- Loader -->
@@ -88,14 +83,15 @@
 	<script type="text/javascript">
 	
 
-		$( function() {
-			$( '#album' ).jGallery( {
-				autostart: true,
-				zoomSize: '100%'
-			});
-		});
+$( function() {
+	$( '#album' ).jGallery( {
+		autostart: true,
+		zoomSize: '100%'
+	});
+});
 
 
+</script>
 
 	</script>
 </html>
