@@ -79,7 +79,7 @@ PURPLE
 	width: 140px;
 	position: fixed;
 	right: 0;
-	bottom: 30%;
+	bottom: 25%;
 	z-index: 999999;
 	background: transparent;
 	/*border-radius: 4px;*/
