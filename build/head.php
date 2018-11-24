@@ -6,21 +6,7 @@
 <meta name="keywords"    content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
 <meta name="author"      content="" />
 <link rel="shortcut icon" href="favicon.png">
-<!-- 
-//////////////////////////////////////////////////////
 
-FREE HTML5 TEMPLATE 
-DESIGNED & DEVELOPED by FREEHTML5.CO
-	
-Website: 		http://freehtml5.co/
-Email: 			info@freehtml5.co
-Twitter: 		http://twitter.com/fh5co
-Facebook: 		https://www.facebook.com/fh5co
-
-//////////////////////////////////////////////////////
- -->
-
-	<!-- Facebook and Twitter integration -->
 <meta property="og:title" content=""/>
 <meta property="og:image" content=""/>
 <meta property="og:url" content=""/>
