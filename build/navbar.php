@@ -2,6 +2,7 @@
 	<div class="container">
 		<nav role="navigation">
 			<ul class="pull-left left-menu">
+				<li><a href="sobre.php">Quem Somos</a></li>
 				<li><a href="doacoes.php">Doações</a></li>
 				<!-- <li><a href="album.php">Album</a></li> -->
 				<li class="nav-item dropdown">
@@ -9,8 +10,6 @@
 			          Saiba mais <i class="fas fa-caret-down"></i>
 			        </a>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-			          <a class="dropdown-item" href="sobre.php">Nossa equipe</a>
-			          <div class="dropdown-divider"></div>
 			          <a class="dropdown-item" href="parceiros.php">Parceiros</a> 
 			          <div class="dropdown-divider"></div>
 			          <a class="dropdown-item" href="projetos.php">Projetos</a> 

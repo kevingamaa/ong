@@ -516,6 +516,9 @@ body {
   background-color: #fff;
   padding: 7em 0;
 }
+#fh5co-footer{
+  background-color: rgba(242, 242, 242,0.7);
+}
 @media screen and (max-width: 768px) {
   #fh5co-features,
   #fh5co-features-2,
@@ -931,7 +934,7 @@ body {
 }
 
 #fh5co-info {
-  background: #8dc63f;
+  background: #00b300;
 }
 #fh5co-info .fh5co-label {
   color: rgba(255, 255, 255, 0.5);

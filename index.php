@@ -141,9 +141,9 @@
 					<div class="fh5co-feature">
 						
 						<div class="fh5co-text animate-box">
-							<h3>Brincadeiras e Recreação</h3>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulscing elit. Cras vestibulum, lectus quis consectetur condimentum, ligula lectus ornare felis, in tempor sapien mauris eget leo. Etiam sed tortor scelerisque, pretium
+							<h3>Recreação e Atividades</h3>
+							<p>	
+							Sala de Informática, Biblioteca, Reforço escolar, Oficinas de músicas e leitura, Atividade livre na internet, Oficinas de artesanato, Oficinas preparatórias para mercado de trabalho, Grupos de orientação sexual, Atividade pedagógico-recreativo e Atendimento ondotológico e psicossocial.
 							</p>
 						</div>
 					</div>
@@ -151,7 +151,7 @@
 						<div class="fh5co-text animate-box">
 							<h3>Ambiente Feliz e alegre</h3>
 							<p>
-								Lorem ipsum dolor sit amet, consecteturscing elit. Cras vestibulum, lectus quis consectetur condimentum, ligula lectus ornare felis, in tempor sapien mauris eget leo. Etiam sed tortor scelerisque, pretium
+								Aqui tem gente como você fazendo o bem para pequenos cidadãos
 							</p>
 						</div>
 					</div>
@@ -160,7 +160,7 @@
 						<div class="fh5co-text animate-box">
 							<h3>Amor e carinho</h3>
 							<p>
-								scing elit. Cras vestibulum, lectus quis consectetur condimentum, ligula lectus ornare felis, in tempor sapien mauris eget leo. Etiam sed tortor scelerisque, pretium
+								Doar, acreditar e lutar... Somos uma entidade sem fins lucrativos que atende crianças de 0 a 18 anos.
 							</p>
 						</div>
 					</div>
