@@ -4,10 +4,13 @@
 <meta name="viewport"    content="width=device-width, initial-scale=1">
 <meta name="description" content="Somos uma entidade sem fins lucrativos que atende crianças de 0 a 18 anos. Hoje graças as parcerias estabelecidas atendemos no nosso núcleo sócio educativo crianças em regime de meioperíodo, assim como outras crianças em situação de vulnerabilidade social em nossas 02 Casas Lar." />
 <meta name="keywords"    content="abrigo, casa de crianças, casa da criança, doação, instituição sem fins lucrativos" />
-<meta name="author"      content="GDV CODDX" />
 
-<meta property="og:url" content="http://www.casadacriancasantoamaro.org.br"/>
-<meta property="og:site_name" content="casadacriancasantoamaro"/>
+
+<meta name="author"      content="Programm Jungs" />
+
+<meta property="og:url" content=""/>
+<meta property="og:site_name" content=""/>
+
 <meta property="og:description" content="Somos uma entidade sem fins lucrativos que atende crianças de 0 a 18 anos. Hoje graças as parcerias estabelecidas atendemos no nosso núcleo sócio educativo crianças em regime de meioperíodo, assim como outras crianças em situação de vulnerabilidade social em nossas 02 Casas Lar."/>
 
 
@@ -28,9 +31,10 @@
 <link rel="stylesheet" href="css/bootstrap.css">
 
 <link rel="stylesheet"  media="all" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-<link rel="stylesheet" type="text/css" media="all" href="dist/css/jgallery.min.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/jgallery.min.css" />
 
--->
+
+
 <link rel="stylesheet" href="css/style.css">
 
 
@@ -58,7 +62,7 @@
 	margin-left: -140px;
 }
 #colour-variations h3 {
-	text-align: center;;
+	text-align: center;
 	font-size: 11px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -167,7 +171,16 @@
 	background-color: transparent!important;
 	border: none !important;
 }
+.seta-topo{
+	background-color: #cccccc;
+	
+	border-radius: 10px;
+	position: fixed;
+	left: 50px;
+	bottom: 10%;
+}
 </style>
+
 
 
 

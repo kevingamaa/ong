@@ -4,7 +4,8 @@
 	<input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/doacoes/120x53-doar.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!">
 </form>
 
-<footer id="fh5co-footer">
+
+		<footer id="fh5co-footer">
 			<div class="container">
 				<div class="row row-bottom-padded-md">
 					<div class="col-md-3 col-sm-6 col-xs-12 animate-box">
@@ -70,9 +71,8 @@
 							<p class="fh5co-right">
 								<small class="fh5co-right">
 									Desenvolvido por: 
-									<a href="https://www.linkedin.com/in/guilherme-gama-529b5415b" target="_blank">Guilherme Gama</a>, &nbsp;
-									<a href="#" target="_blank">Deivid Bitchner</a>, &nbsp;
-									<a href="https://www.linkedin.com/in/vitor-kevin-048811165" target="_blank">Vito Kevin</a>
+										<a href="#" target="_blank">PROGRAMM JUNGS &#10084; </a>, &nbsp;
+							
 								</small>
 							</p>
 						</div>
@@ -84,7 +84,13 @@
 
 			
 		</footer>
-		
+
+		<!-- END #fh5co-footer -->
+		<div class="seta-topo" style="display: none">
+			<a href="#fh5co-header" class="btn btn-secondary" style="color: #8c8c8c!important;">
+				<i class="fas fa-caret-up fa-3x"></i>
+			</a>
+		</div>
 	</div>
 	<!-- END #fh5co-page -->
 	
@@ -95,7 +101,6 @@
 			Doar
 		</button>
 	</div>
-	
 
 	
 	<!-- jQuery -->
@@ -110,9 +115,10 @@
 	<script src="js/jquery.flexslider-min.js"></script>
 	<!-- Magnific Popup -->
 	<script src="js/jquery.magnific-popup.min.js"></script>
+	
 	<script src="js/magnific-popup-options.js"></script>
 
-	<script type="text/javascript" src="dist/js/jgallery.min.js"></script>
+	<script type="text/javascript" src="js/jgallery.min.js"></script>
 
 
 	<script src="js/main.js"></script>
@@ -146,6 +152,15 @@
 		      });
 		    } // End if
 		  });
+		});
+
+		$(window).scroll(function(){
+		   
+		   if ( $(window).scrollTop() > 710.3704223632812) {
+		   	$('.seta-topo').show('3000');
+		   }else{
+		   	$('.seta-topo').hide('slow');
+		   }
 		});
 
 		$('.btn-doar').click(function(){

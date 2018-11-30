@@ -22,7 +22,7 @@
 			require_once('build/navbar.php');
 		?>
 
-		<section id="fh5co-hero" class="js-fullheight" style="background-image: url(img/criancas_EBC.jpg);" data-next="yes">
+		<section id="fh5co-hero" class="js-fullheight" style="background-image: url(img/capaAlbum.jpg);" data-next="yes">
 			<div class="fh5co-overlay"></div>
 			<div class="container">
 				<div class="fh5co-intro js-fullheight">
@@ -51,22 +51,22 @@
 						<div id="album">
 							<div data-jgallery-album-title="Album 1" class="album">
 								<h1>Album 1</h1>
-								<a href="img/crianca3.jpg"><img alt="" src="img/crianca3.jpg"></a>
-								<a href="img/crianca2.jpg"><img alt="" src="img/crianca2.jpg"></a>
-								<a href="img/crianca1.jpg"><img alt="" src="img/crianca1.jpg"></a>
+								<?php for($i=1;$i <= 18; $i++){ ?>
+									<a href="img/album/<?=$i ?>.jpg"><img alt="" src="img/album/<?=$i ?>.jpg"></a>
+								<?php } ?>
 							</div>
 							<div data-jgallery-album-title="Album 2" class="album">
 								<h1>Album 1</h1>
-								<a href="img/crianca3.jpg"><img alt="" src="img/crianca3.jpg"></a>
-								<a href="img/crianca2.jpg"><img alt="" src="img/crianca2.jpg"></a>
-								<a href="img/crianca1.jpg"><img alt="" src="img/crianca1.jpg"></a>
+								<?php for($i=1;$i <= 18; $i++){ ?>
+									<a href="img/album/<?=$i ?>.jpg"><img alt="" src="img/album/<?=$i ?>.jpg"></a>
+								<?php } ?>
 							</div>
 
 							<div data-jgallery-album-title="Album 3" class="album">
 								<h1>Album 1</h1>
-								<a href="img/crianca3.jpg"><img alt="" src="img/crianca3.jpg"></a>
-								<a href="img/crianca2.jpg"><img alt="" src="img/crianca2.jpg"></a>
-								<a href="img/crianca1.jpg"><img alt="" src="img/crianca1.jpg"></a>
+								<?php for($i=1;$i <= 18; $i++){ ?>
+									<a href="img/album/<?=$i ?>.jpg"><img alt="" src="img/album/<?=$i ?>.jpg"></a>
+								<?php } ?>
 							</div>
 						</div>
 					</div>

@@ -36,8 +36,9 @@
 							<h2 class="animate-box">Projetos e Eventos</h2>
 							<small>Seja voluntario para ajudar a ong em eventos</small>
 							<p class="animate-box">
-								<a href="#" class="btn btn-primary">
+								<a href="https://docs.google.com/forms/d/e/1FAIpQLSfW9O2r4_HIi9jDSXm7-riJy0ldfu0vYdu8SK7gChhQcmMa4A/viewform" class="btn btn-primary" target="__blank">
 									Se-voluntariar
+									
 								</a>
 							</p>
 						</div>
@@ -55,24 +56,23 @@
 		<section id="fh5co-projects">
 			<div class="container">
 				<div class="row row-bottom-padded-md">
-					<div class="col-md-6">
+					<div class="col-md-12 text-center">
 						<h2 class="fh5co-lead animate-box">Nossa pagina no facebook</h2>
 						<p class="fh5co-sub-lead animate-box">
-							Focamos para dar o melhor para as crianças 
+							Focamos para dar o melhor para as crianças, verifique nossos projetos e eventos no facebook
 						</p>
 					</div>
 				</div>
 				<div class="row text-center">
-					<div class="col-md-6  animate-box ">
+					<div class="col-md-3 clearfix"></div>
+					<div class="col-md-6 animate-box">
 						<div class="fb-page"  data-href="https://www.facebook.com/CasaDaCriancaEDoAdolecenteSantoAmaroGrossarl/" data-tabs="timeline" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
 							<blockquote cite="https://www.facebook.com/CasaDaCriancaEDoAdolecenteSantoAmaroGrossarl/" class="fb-xfbml-parse-ignore">
 								<a href="https://www.facebook.com/CasaDaCriancaEDoAdolecenteSantoAmaroGrossarl/">Casa da Criança e do Adolescente Santo Amaro</a>
 							</blockquote>
 						</div>	
 					</div>
-					<div class="col-md-6">
-						
-					</div>
+					
 				</div>
 			</div>
 		</section>
@@ -82,67 +82,34 @@
 			<div class="container">
 				<div class="row row-bottom-padded-lg">
 					<div class="col-md-6 col-md-offset-3 text-center">
-						<div class="fh5co-label animate-box">subtitulo</div>
-						<h2 class="fh5co-lead animate-box">Nossos projetos</h2>
+						
+						<h2 class="fh5co-lead animate-box">Nossos Projetos</h2>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
 						<ul class="fh5co-faq-list">
 							<li class="animate-box">
-								<h2>Titulo</h2>
+								<h2>O Centro da Criança e do Adolescente - CCA/SEMEAR</h2>
 								<p>
-									texto texto texto texto texto texto texto texto texto 
-									texto texto texto texto texto texto texto texto texto 
-									texto texto texto texto texto texto texto texto texto 
-									texto texto texto texto texto texto texto texto texto 
+								Atendemos uma média de 70 crianças e adolescentes (06 a 14 anos) por ano em situação de vulnerabilidade e risco, contribuindo na sua proteção integral em conjunto com a família e Estado, promovendo o desenvolvimento de suas potencialidades, a partir de ações sócio educativas. 
 								</p>
 							</li>
 							<li class="animate-box">
-								<h2>Titulo</h2>
+								<h2>Casa Lar e Saica</h2>
 								<p>
-									texto texto texto texto texto texto texto texto texto 
-									texto texto texto texto texto texto texto texto texto 
-									texto texto texto texto texto texto texto texto texto 
-									texto texto texto texto texto texto texto texto texto 
+								A Casa Lar e Saica atende 30 crianças em acolhimento institucional divididas em duas casas, tendo como prinicipal objetivo acolhe-las até que tenham sua guarda restabelecida pelo Estado. 
+
+
 								</p>
 							</li>
 							<li class="animate-box">
-								<h2>Titulo</h2>
+								<h2>ATIVIDADES</h2>
+
 								<p>
-									texto texto texto texto texto texto texto texto texto 
-									texto texto texto texto texto texto texto texto texto 
-									texto texto texto texto texto texto texto texto texto 
-									texto texto texto texto texto texto texto texto texto 
+								&#9679; Esporte e Recreação<br> &#9679;	Cidadania, Valores, Direitos e Deveres<br>&#9679; Ensino de Informática<br> &#9679;	Atendimento Psicológico<br> &#9679;	Sensibilização Ambiental<br> &#9679; Passeios Culturais<br> &#9679;	Ensino de Música<br> &#9679; Aulas de Inglês
 								</p>
-							</li>
-							<li class="animate-box">
-								<h2>Titulo</h2>
-								<p>
-									texto texto texto texto texto texto texto texto texto 
-									texto texto texto texto texto texto texto texto texto 
-									texto texto texto texto texto texto texto texto texto 
-									texto texto texto texto texto texto texto texto texto 
-								</p>
-							</li>
-							<li class="animate-box">
-								<h2>Titulo</h2>
-								<p>
-									texto texto texto texto texto texto texto texto texto 
-									texto texto texto texto texto texto texto texto texto 
-									texto texto texto texto texto texto texto texto texto 
-									texto texto texto texto texto texto texto texto texto 
-								</p>
-							</li>
-							<li class="animate-box">
-								<h2>Titulo</h2>
-								<p>
-									texto texto texto texto texto texto texto texto texto 
-									texto texto texto texto texto texto texto texto texto 
-									texto texto texto texto texto texto texto texto texto 
-									texto texto texto texto texto texto texto texto texto 
-								</p>
-							</li>
+							
 						</ul>
 					</div>
 				</div>
