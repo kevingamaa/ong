@@ -63,18 +63,91 @@
 					</div>
 				</div>
 				<div class="row text-center">
-					<div class="col-md-12  animate-box ">
+					<div class="col-md-6  animate-box ">
 						<div class="fb-page"  data-href="https://www.facebook.com/CasaDaCriancaEDoAdolecenteSantoAmaroGrossarl/" data-tabs="timeline" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
 							<blockquote cite="https://www.facebook.com/CasaDaCriancaEDoAdolecenteSantoAmaroGrossarl/" class="fb-xfbml-parse-ignore">
 								<a href="https://www.facebook.com/CasaDaCriancaEDoAdolecenteSantoAmaroGrossarl/">Casa da Criança e do Adolescente Santo Amaro</a>
 							</blockquote>
 						</div>	
 					</div>
+					<div class="col-md-6">
+						
+					</div>
 				</div>
 			</div>
 		</section>
 		<!-- END #fh5co-hero -->
 
+		<div id="fh5co-faqs">
+			<div class="container">
+				<div class="row row-bottom-padded-lg">
+					<div class="col-md-6 col-md-offset-3 text-center">
+						<div class="fh5co-label animate-box">subtitulo</div>
+						<h2 class="fh5co-lead animate-box">Nossos projetos</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<ul class="fh5co-faq-list">
+							<li class="animate-box">
+								<h2>Titulo</h2>
+								<p>
+									texto texto texto texto texto texto texto texto texto 
+									texto texto texto texto texto texto texto texto texto 
+									texto texto texto texto texto texto texto texto texto 
+									texto texto texto texto texto texto texto texto texto 
+								</p>
+							</li>
+							<li class="animate-box">
+								<h2>Titulo</h2>
+								<p>
+									texto texto texto texto texto texto texto texto texto 
+									texto texto texto texto texto texto texto texto texto 
+									texto texto texto texto texto texto texto texto texto 
+									texto texto texto texto texto texto texto texto texto 
+								</p>
+							</li>
+							<li class="animate-box">
+								<h2>Titulo</h2>
+								<p>
+									texto texto texto texto texto texto texto texto texto 
+									texto texto texto texto texto texto texto texto texto 
+									texto texto texto texto texto texto texto texto texto 
+									texto texto texto texto texto texto texto texto texto 
+								</p>
+							</li>
+							<li class="animate-box">
+								<h2>Titulo</h2>
+								<p>
+									texto texto texto texto texto texto texto texto texto 
+									texto texto texto texto texto texto texto texto texto 
+									texto texto texto texto texto texto texto texto texto 
+									texto texto texto texto texto texto texto texto texto 
+								</p>
+							</li>
+							<li class="animate-box">
+								<h2>Titulo</h2>
+								<p>
+									texto texto texto texto texto texto texto texto texto 
+									texto texto texto texto texto texto texto texto texto 
+									texto texto texto texto texto texto texto texto texto 
+									texto texto texto texto texto texto texto texto texto 
+								</p>
+							</li>
+							<li class="animate-box">
+								<h2>Titulo</h2>
+								<p>
+									texto texto texto texto texto texto texto texto texto 
+									texto texto texto texto texto texto texto texto texto 
+									texto texto texto texto texto texto texto texto texto 
+									texto texto texto texto texto texto texto texto texto 
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 	
 		<?php
 			require_once('build/footer.php');
