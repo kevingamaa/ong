@@ -32,66 +32,18 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12">
+            @foreach ($parceiros as $p)
+            <div class="col-md-4 col-sm-12 col-xs-12">
                 <div class="fh5co-feature">
                     <div class="fh5co-icon animate-box">
-                        <a href="https://www.leroymerlin.com.br/" target="__blank">
-									<img src="img/PARCEIROS/logo-leroy-merlin.png">	
-									</a>
+                        <a href="{{ $p->referencia }}" target="__blank" class="ml-auto mr-auto"><img src="{{ asset('storage/'.$p->logo) }}" style="width: 280px; height:209px"></a>
                     </div>
-                    <h3 class="animate-box">LEROY MERLIN </h3>
-
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="fh5co-feature">
-                    <div class="fh5co-icon animate-box">
-                        <a href="https://fumcad.prefeitura.sp.gov.br/forms/principal.aspx" target="__blank"><img src="img/PARCEIROS/fumcad_logo.png"></a>
-                    </div>
-                    <h3 class="animate-box">FUMCAD</h3>
+                    <h3 class="animate-box">{{ $p->nome }}</h3>
 
                 </div>
             </div>
             <div class="clearfix visible-sm-block"></div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="fh5co-feature">
-                    <div class="fh5co-icon animate-box">
-                        <a href="https://www.machadomeyer.com.br/" target="__blank"><img src="img/PARCEIROS/meyer.jpg"></a>
-                    </div>
-                    <h3 class="animate-box">MACHADO MEYER</h3>
-
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="fh5co-feature">
-                    <div class="fh5co-icon animate-box">
-                        <a href="http://inaflex.com/" target="__blank"><img src="img/PARCEIROS/1395854580logo-935-5-jpg.jpg"></a>
-                    </div>
-                    <h3 class="animate-box">INAFLEX</h3>
-
-                </div>
-            </div>
-            <div class="clearfix visible-sm-block"></div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="fh5co-feature">
-                    <div class="fh5co-icon animate-box">
-                        <a href="https://www.comecanha.com.br/" target="__blank"><img src="img/PARCEIROS/download.png"></a>
-                    </div>
-                    <h3 class="animate-box">COMEÇANHA ADVOGADOS ASSOCIADOS</h3>
-
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="fh5co-feature">
-                    <div class="fh5co-icon animate-box">
-                        <a href="http://www.legrand.com.br/" target="__blank"><img src="img/PARCEIROS/Legrand-Red-JPG.jpg"></a>
-                    </div>
-                    <h3 class="animate-box">LEGRAND</h3>
-
-                </div>
-            </div>
-            <div class="clearfix visible-sm-block"></div>
+            @endforeach
         </div>
     </div>
 </section>

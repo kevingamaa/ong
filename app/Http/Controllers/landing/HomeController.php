@@ -12,7 +12,7 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function landing()
     {
         return view('landing.home');
     }

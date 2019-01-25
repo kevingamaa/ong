@@ -4,6 +4,10 @@ namespace App\Http\Controllers\landing;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Parceiro;
+use Intervention\Image\ImageManagerStatic as image;
+use Illuminate\Support\Facades\Storage;
+
 
 class ParceirosController extends Controller
 {
@@ -12,11 +16,20 @@ class ParceirosController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function landing()
     {
-        return view('landing.parceiros');
+        $parceiros = Parceiro::orderBy('created_at', 'desc')->get();
+
+        return view('landing.parceiros', compact('parceiros'));
     }
 
+
+    public function index()
+    {
+        $parceiros = Parceiro::orderBy('created_at', 'desc') ->get();
+
+        return view('dash.parceiros.index', compact('parceiros'));
+    }
     /**
      * Show the form for creating a new resource.
      *
@@ -24,7 +37,7 @@ class ParceirosController extends Controller
      */
     public function create()
     {
-        //
+        return view('dash.parceiros.create');
     }
 
     /**
@@ -33,9 +46,31 @@ class ParceirosController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
-        //
+    public function store(Request $request, Parceiro $parceiro)
+    {   
+        if ($request->file->getMaxFilesize() < $request->file->getClientSize()) {
+            return redirect()->back()->with('error', "Anexo muito grande !");
+        }
+        if (strstr('.jpg;.jpeg;.gif;.png;', $request->file->clientExtension())) {
+
+            $parceiro->nome = $request->nome;
+            $parceiro->referencia = $request->referencia;
+            $parceiro->save();
+
+            $imagename = md5( date('his') . $parceiro->id) . "." . $request->file->clientExtension();
+            Image::make($request->file)->resize(280, 209, function ($constraint) {
+                $constraint->aspectRatio();
+                $constraint->upsize();
+            })->save(storage_path('app/public') . "/parceiros/$imagename");
+
+            $parceiro->logo = "parceiros/$imagename";
+            $parceiro->save();
+
+            return redirect()->route('parceiros.admin');
+        }else{
+            return redirect()->back()->with('error', "Extensão de imagem não permitida!");
+        }
+
     }
 
     /**
@@ -57,7 +92,11 @@ class ParceirosController extends Controller
      */
     public function edit($id)
     {
-        //
+        $parceiro = Parceiro::find($id);
+        if (isset($parceiro)) 
+        {
+            return view('dash.parceiros.edit', compact('parceiro'));
+        }
     }
 
     /**
@@ -68,8 +107,36 @@ class ParceirosController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
-    {
-        //
+    {   
+        $parceiro = Parceiro::find($id);
+        $parceiro->nome = $request->nome;
+        $parceiro->referencia = $request->referencia;
+        $parceiro->save();
+
+        if(isset($request->file))
+        {
+            Storage::delete("public/$parceiro->logo");
+
+            if ($request->file->getMaxFilesize() < $request->file->getClientSize()) {
+                return redirect()->back()->with('error', "Anexo muito grande !");
+            }
+
+            if (strstr('.jpg;.jpeg;.gif;.png;', $request->file->clientExtension())) {
+                $imagename = md5( date('his') . $parceiro->id) . "." . $request->file->clientExtension();
+                Image::make($request->file)->resize(280, 209, function ($constraint) {
+                    $constraint->aspectRatio();
+                    $constraint->upsize();
+                })->save(storage_path('app/public') . "/parceiros/$imagename");
+
+                $parceiro->logo = "parceiros/$imagename";
+                $parceiro->save();
+            }else{
+                return redirect()->back()->with('error', "Extensão de imagem não permitida!");
+            }
+        }
+
+        return redirect()->route('parceiros.admin');
+
     }
 
     /**
@@ -80,6 +147,12 @@ class ParceirosController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $parceiro = Parceiro::find($id);
+        if(isset($parceiro) ) 
+        {
+            $parceiro->delete();
+        }
+
+        return redirect()->route('parceiros.admin');
     }
 }

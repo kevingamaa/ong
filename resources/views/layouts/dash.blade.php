@@ -21,11 +21,13 @@
     <link href="{{ asset('dash/css/black-dashboard.css?v=1.0.0') }}" rel="stylesheet" />
 
     <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link href="{{ asset('dash/css/demo.css') }}" rel="stylesheet" />
+    <link href="{{ asset('dash/demo/demo.css') }}" rel="stylesheet" />
+
+    <link rel="stylesheet" href="{{ asset('dash/js/plugins/bootstrap-fileinput/css/fileinput.min.css') }}">
  
 </head>
 
-<body>
+<body class="white-content">
     
     <div class="wrapper">
         @component('dash.component.sidebar_component')
@@ -76,7 +78,7 @@
             </footer>
         </div>
     </div>
-    <div class="fixed-plugin">
+    {{-- <div class="fixed-plugin">
         <div class="dropdown show-dropdown">
             <a href="#" data-toggle="dropdown">
                     <i class="fa fa-cog fa-2x"> </i>
@@ -86,9 +88,9 @@
                 <li class="adjustments-line">
                     <a href="javascript:void(0)" class="switch-trigger background-color">
                         <div class="badge-colors text-center">
-                            <span class="badge filter badge-primary active" data-color="primary"></span>
-                            <span class="badge filter badge-info" data-color="blue"></span>
-                            <span class="badge filter badge-success" data-color="green"></span>
+                            <span class="badge filter badge-primary " data-color="primary"></span>
+                            <span class="badge filter badge-info active" data-color="blue"></span>
+                            <span class="badge filter badge-success " data-color="green"></span>
                         </div>
                         <div class="clearfix"></div>
                     </a>
@@ -117,7 +119,7 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </div> --}}
     <!--   Core JS Files   -->
     <script src="{{ asset('dash/js/core/jquery.min.js') }}"></script>
     <script src="{{ asset('dash/js/core/popper.min.js') }}"></script>
@@ -125,7 +127,7 @@
     <script src="{{ asset('dash/js/plugins/perfect-scrollbar.jquery.min.js') }}"></script>
     <!--  Google Maps Plugin    -->
     <!-- Place this tag in your head or just before your close body tag. -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+    {{-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script> --}}
     <!-- Chart JS -->
     <script src="{{ asset('dash/js/plugins/chartjs.min.js') }}"></script>
     <!--  Notifications Plugin    -->
@@ -133,7 +135,7 @@
     <!-- Control Center for Black Dashboard: parallax effects, scripts for the example pages etc -->
     <script src="{{ asset('dash/js/black-dashboard.min.js?v=1.0.0') }}"></script>
     <!-- Black Dashboard DEMO methods, don't include it in your project! -->
-    <script src="{{ asset('dash/demo/demo.js') }}"></script>
+    {{-- <script src="{{ asset('dash/demo/demo.js') }}"></script> --}}
     <script>
         $(document).ready(function () {
                 $().ready(function () {
@@ -245,13 +247,12 @@
                 });
             });
     </script>
-    <script>
-        $(document).ready(function () {
-                // Javascript method's body can be found in assets/js/demos.js
-                demo.initDashboardPageCharts();
-    
-            });
-    </script>
+    @hasSection ('js')
+        @yield('js')
+        
+    @endif
+
+
 </body>
 
 </html>

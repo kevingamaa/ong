@@ -3,25 +3,25 @@
         <div class="navbar-wrapper">
             <div class="navbar-toggle d-inline">
                 <button type="button" class="navbar-toggler">
-                                    <span class="navbar-toggler-bar bar1"></span>
-                                    <span class="navbar-toggler-bar bar2"></span>
-                                    <span class="navbar-toggler-bar bar3"></span>
-                                </button>
+                    <span class="navbar-toggler-bar bar1"></span>
+                    <span class="navbar-toggler-bar bar2"></span>
+                    <span class="navbar-toggler-bar bar3"></span>
+                </button>
             </div>
             <a class="navbar-brand" href="javascript:void(0)">Dashboard</a>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-bar navbar-kebab"></span>
-                            <span class="navbar-toggler-bar navbar-kebab"></span>
-                            <span class="navbar-toggler-bar navbar-kebab"></span>
-                        </button>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navigation">
             <ul class="navbar-nav ml-auto">
                 <li class="search-bar input-group">
                     <button class="btn btn-link" id="search-button" data-toggle="modal" data-target="#searchModal"><i
-                                            class="tim-icons icon-zoom-split"></i>
-                                        <span class="d-lg-none d-md-block">Search</span>
-                                    </button>
+                            class="tim-icons icon-zoom-split"></i>
+                        <span class="d-lg-none d-md-block">Search</span>
+                    </button>
                 </li>
                 <li class="dropdown nav-item">
                     <a href="javascript:void(0)" class="dropdown-toggle nav-link" data-toggle="dropdown">
@@ -55,7 +55,7 @@
                 <li class="dropdown nav-item">
                     <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
                         <div class="photo">
-                            <img src="../assets/img/anime3.png" alt="Profile Photo">
+                            <img src="{{ asset('dash/img/anime3.png') }}"  alt="Profile Photo">
                         </div>
                         <b class="caret d-none d-lg-block d-xl-block"></b>
                         <p class="d-lg-none">
@@ -87,8 +87,8 @@
             <div class="modal-header">
                 <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="SEARCH">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <i class="tim-icons icon-simple-remove"></i>
-                            </button>
+                    <i class="tim-icons icon-simple-remove"></i>
+                </button>
             </div>
         </div>
     </div>

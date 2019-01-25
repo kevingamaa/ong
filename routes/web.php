@@ -14,11 +14,11 @@
 
 Auth::routes();
 
-Route::get('/', 'landing\\HomeController@index')->name('index.landing');
-Route::get('/doacoes', 'landing\\DoacoesController@index')->name('doacoes.landing');
-Route::get('/parceiros', 'landing\\ParceirosController@index')->name('parceiros.landing');
-Route::get('/album', 'landing\\AlbumController@index')->name('album.landing');
-Route::get('/projetos', 'landing\\ProjetosController@index')->name('projetos.landing');
+Route::get('/', 'landing\\HomeController@landing')->name('index.landing');
+Route::get('/doacoes', 'landing\\DoacoesController@landing')->name('doacoes.landing');
+Route::get('/parceiros', 'landing\\ParceirosController@landing')->name('parceiros.landing');
+Route::get('/album', 'landing\\AlbumController@landing')->name('album.landing');
+Route::get('/projetos', 'landing\\ProjetosController@landing')->name('projetos.landing');
 
 
 Route::get('/quem-somos', function(){
@@ -29,4 +29,18 @@ Route::get('/quem-somos', function(){
 
 Route::prefix('admin')->group(function(){
     Route::get('/', 'admin\\DashController@index')->name('index.admin');
+    Route::get('/parceiros', 'landing\\ParceirosController@index')->name('parceiros.admin');
+    Route::get('/parceiros/novo', 'landing\\ParceirosController@create')->name('parceirosCreate.admin');
+    Route::post('/parceiros', 'landing\\ParceirosController@store')->name('parceirosStore.admin');
+    Route::get('/parceiros/{id}', 'landing\\ParceirosController@edit')->name('parceirosEdit.admin');
+    Route::patch('/parceiros/{id}', 'landing\\ParceirosController@update')->name('parceirosUpdate.admin');
+    Route::delete('/parceiros/{id}', 'landing\\ParceirosController@destroy')->name('parceirosDestroy.admin');
+
+
+    
+});
+
+
+Route::get('/log', function(){
+    return view('login.login');
 });

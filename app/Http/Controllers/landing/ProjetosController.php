@@ -12,11 +12,16 @@ class ProjetosController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function landing()
     {
         return view('landing.projetos');
     }
 
+
+    public function index()
+    {
+        return view('landing.projetos');
+    }
     /**
      * Show the form for creating a new resource.
      *

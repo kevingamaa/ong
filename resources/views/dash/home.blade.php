@@ -3,7 +3,7 @@
 @section('content')
     <div class="row">
         <div class="col-md-12">
-            dsadsasdadasdas
+            <h2>Home</h2>
         </div>
     </div>
 @endsection
