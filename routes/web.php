@@ -25,3 +25,8 @@ Route::get('/quem-somos', function(){
     return view('landing.sobre');
 })->name('quem-somos.landing');
 
+
+
+Route::prefix('admin')->group(function(){
+    Route::get('/', 'admin\\DashController@index')->name('index.admin');
+});
