@@ -13,9 +13,9 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="{{ route('parceiros.landing') }}">Parceiros</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="{{ route('album.landing') }}">Projetos</a>
+                        <a class="dropdown-item" href="{{ route('projetos.landing') }}">Projetos</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="{{ route('projetos.landing') }}">Album</a>
+                        <a class="dropdown-item" href="{{ route('album.landing') }}">Album</a>
                     </div>
                 </li>
             </ul>

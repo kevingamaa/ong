@@ -27,7 +27,7 @@ Route::get('/quem-somos', function(){
 
 
 
-Route::prefix('admin')->group(function(){
+Route::prefix('admin')->middleware('auth')->group(function(){
     Route::get('/', 'admin\\DashController@index')->name('index.admin');
     Route::get('/parceiros', 'landing\\ParceirosController@index')->name('parceiros.admin');
     Route::get('/parceiros/novo', 'landing\\ParceirosController@create')->name('parceirosCreate.admin');
@@ -37,10 +37,6 @@ Route::prefix('admin')->group(function(){
     Route::delete('/parceiros/{id}', 'landing\\ParceirosController@destroy')->name('parceirosDestroy.admin');
 
 
-    
 });
 
 
-Route::get('/log', function(){
-    return view('login.login');
-});

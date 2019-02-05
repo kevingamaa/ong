@@ -9,7 +9,7 @@
                         @method('DELETE')
                         @csrf
                         <button type="submit" class="clos btn btn-danger btn-sm">
-                            <i class="tim-icons icon-simple-remove"></i>
+                            excluir <i class="tim-icons icon-simple-remove"></i>
                         </button>
                     </form>
                     <form method="post" action="{{ route('parceirosUpdate.admin', $parceiro->id) }}" enctype="multipart/form-data" >

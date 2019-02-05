@@ -2,7 +2,7 @@
 
 @section('title', 'Home')
 @section('content')
-   <section id="fh5co-hero" class="js-fullheight" style="background-image: url(img/sejabemvindos.jpg);" data-next="yes">
+   <section id="fh5co-hero" class="js-fullheight" style='background-image: url("{{ asset('landing/img/backgrounds/bg-home.jpg') }}");' data-next="yes">
         <div class="fh5co-overlay"></div>
         <div class="container">
             <div class="fh5co-intro js-fullheight">
@@ -12,11 +12,9 @@
                         <h2 class="animate-box">Casa da criança</h2>
                         <small>Seja voluntario para ajudar a ong</small>
                         <p class="animate-box">
-
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfW9O2r4_HIi9jDSXm7-riJy0ldfu0vYdu8SK7gChhQcmMa4A/viewform" class="btn btn-primary"
-                                target="__blank">
-                                        Se-voluntariar
-                                    </a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfW9O2r4_HIi9jDSXm7-riJy0ldfu0vYdu8SK7gChhQcmMa4A/viewform" class="btn btn-primary" target="__blank">
+                                Se-voluntariar
+                            </a>
                         </p>
                     </div>
                 </div>
@@ -97,7 +95,7 @@
         <div class="container">
             <div class="col-md-6 col-md-push-6">
                 <figure class="fh5co-feature-image animate-box">
-                    <img src="img/pulando-corda.jpg" alt="">
+                    <img src="{{ asset('landing/img/home/pulando-corda.jpg') }}" alt="">
                 </figure>
             </div>
             <div class="col-md-6 col-md-pull-6">
@@ -134,8 +132,8 @@
     
                 <div class="fh5co-btn-action animate-box">
                     <a href="sobre.php" class="btn btn-primary btn-cta">
-    							Saiba mais
-    						</a>
+						Saiba mais
+					</a>
                 </div>
     
             </div>

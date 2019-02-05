@@ -61,3 +61,15 @@
   max-width: 530px;
   margin: 0 auto;
 }
+
+.login {
+  margin-top: 100px;
+  padding: 50px;
+}
+
+
+#login {
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}

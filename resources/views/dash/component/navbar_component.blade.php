@@ -71,7 +71,7 @@
                         </li>
                         <li class="dropdown-divider"></li>
                         <li class="nav-link">
-                            <a href="javascript:void(0)" class="nav-item dropdown-item">Log out</a>
+                            <a href="javascript:void(0)" class="nav-item dropdown-item logout">Log out</a>
                         </li>
                     </ul>
                 </li>
@@ -93,3 +93,7 @@
         </div>
     </div>
 </div>
+
+<form class="d-none" id="logout" action="{{ route('logout') }}" method="post">
+    @csrf
+</form>

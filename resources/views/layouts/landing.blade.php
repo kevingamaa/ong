@@ -119,7 +119,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <p class="fh5co-left">
-                                    <small>&copy; 2018 <a href="index.php"><img src="img/logo.png"></a> </small>
+                                    <small>&copy; 2018 <a href="index.php"><img src="{{ asset('landing/img/logo.png') }}"></a> </small>
                                 </p>
                                 <p class="fh5co-right">
                                     <small class="fh5co-right">
@@ -157,6 +157,11 @@
 
     
     <script src="{{ asset('landing/js/page/jquery.cookie.js') }}"></script>
+    <script type="text/javascript">
+        $('.btn-doar').click(() => {
+            $('.pagseguro-form').submit()
+        })
+    </script>
     @hasSection ('js')
         @yield('js')
     @endif

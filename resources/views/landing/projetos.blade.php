@@ -1,20 +1,20 @@
 @extends('layouts.landing') 
+@section('title', 'Projetos')
 @section('content')
     <section id="fh5co-hero" class="js-fullheight" style="background-image: url(img/850_400_diacriancas.jpg);" data-next="yes">
         <div class="fh5co-overlay"></div>
         <div class="container">
             <div class="fh5co-intro js-fullheight">
                 <div class="fh5co-intro-text">
-                    > -->
                     <div class="fh5co-left-position">
                         <h2 class="animate-box">Projetos e Eventos</h2>
                         <small>Seja voluntario para ajudar a ong em eventos</small>
                         <p class="animate-box">
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfW9O2r4_HIi9jDSXm7-riJy0ldfu0vYdu8SK7gChhQcmMa4A/viewform" class="btn btn-primary"
                                 target="__blank">
-    									Se-voluntariar
-    									
-    								</a>
+								Se-voluntariar
+								
+							</a>
                         </p>
                     </div>
                 </div>
@@ -22,9 +22,9 @@
         </div>
         <div class="fh5co-learn-more animate-box">
             <a href="#" class="scroll-btn">
-    					<span class="text">Saiba mais</span>
-    					<span class="arrow"><i class="icon-chevron-down"></i></span>
-    				</a>
+				<span class="text">Saiba mais</span>
+				<span class="arrow"><i class="icon-chevron-down"></i></span>
+			</a>
         </div>
     </section>
     

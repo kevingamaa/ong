@@ -5,22 +5,7 @@
     </style>
 @endsection
 @section('content')
-    <div class="row">
-        <div class="com-md-12 w-100" style='background: url("{{ asset('dash/img/img_3115.jpg') }}") no-repeat center center; background-size: cover; height: 400px'>
-            <form action="" method="POST" enctype="multipart/form-data" style="" id="cover">
-                @csrf
-                @method('PATCH')
-                <label for="file" class="btn btn-warning  shadow-lg" >
-                    Trocar capa
-                </label>
-                
-                <input id="file" name="file" type="file"  hidden>
-            </form>
-        </div>
-    </div>
-  
-
-
+   
 
     <div class="row mt-4 shadow-lg">
         <div class="card">
