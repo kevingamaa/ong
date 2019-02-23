@@ -39,13 +39,11 @@
             @endcomponent
      
 
-            {{-- <main role="main"> --}}
-                <div class="content">
-                    <main role="main">
-                        @yield('content')
-                    </main>
-                </div>
-            {{-- </main> --}}
+            <div class="content">
+                <main role="main">
+                    @yield('content')
+                </main>
+            </div>
 
 
             <footer class="footer">

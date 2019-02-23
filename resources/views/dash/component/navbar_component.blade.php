@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-absolute navbar-transparent">
+{{-- <nav class="navbar navbar-expand-lg navbar-absolute navbar-transparent">
     <div class="container-fluid">
         <div class="navbar-wrapper">
             <div class="navbar-toggle d-inline">
@@ -59,19 +59,14 @@
                         </div>
                         <b class="caret d-none d-lg-block d-xl-block"></b>
                         <p class="d-lg-none">
-                            Log out
+                            Sair
                         </p>
                     </a>
                     <ul class="dropdown-menu dropdown-navbar">
-                        <li class="nav-link">
-                            <a href="javascript:void(0)" class="nav-item dropdown-item">Profile</a>
-                        </li>
-                        <li class="nav-link">
-                            <a href="javascript:void(0)" class="nav-item dropdown-item">Settings</a>
-                        </li>
+                   
                         <li class="dropdown-divider"></li>
                         <li class="nav-link">
-                            <a href="javascript:void(0)" class="nav-item dropdown-item logout">Log out</a>
+                            <a href="javascript:void(0)" class="nav-item dropdown-item logout">Sair/a>
                         </li>
                     </ul>
                 </li>
@@ -79,7 +74,7 @@
             </ul>
         </div>
     </div>
-</nav>
+</nav> --}}
 
 <div class="modal modal-search fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModal" aria-hidden="true">
     <div class="modal-dialog" role="document">

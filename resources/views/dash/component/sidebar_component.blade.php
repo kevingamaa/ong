@@ -20,6 +20,13 @@
                     <p> Parceiros </p>
                 </a>
             </li>
+
+             <li @isset(explode('/', Request::url())[4]) @if(explode('/', Request::url())[4] == 'projetos') class="active" @endif @endisset >
+                <a href="{{ route('projetos.admin') }}">
+                    <i class="fas fa-handshake"></i>
+                    <p> Projetos </p>
+                </a>
+            </li>
         </ul>
     </div>
 </div>

@@ -2,7 +2,7 @@
     <div class="container">
         <nav role="navigation">
             <ul class="pull-left left-menu">
-                <li><a href="{{ route('quem-somos.landing') }}">Quem Somos</a></li>
+                <li><a href="{{ route('quemsomos.landing') }}">Quem Somos</a></li>
                 <li><a href="{{ route('doacoes.landing') }}">Doações</a></li>
                 <!-- <li><a href="album.php">Album</a></li> -->
                 <li class="nav-item dropdown">

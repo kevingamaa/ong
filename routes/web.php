@@ -21,9 +21,9 @@ Route::get('/album', 'landing\\AlbumController@landing')->name('album.landing');
 Route::get('/projetos', 'landing\\ProjetosController@landing')->name('projetos.landing');
 
 
-Route::get('/quem-somos', function(){
+Route::get('/quemsomos', function(){
     return view('landing.sobre');
-})->name('quem-somos.landing');
+})->name('quemsomos.landing');
 
 
 
@@ -36,6 +36,13 @@ Route::prefix('admin')->middleware('auth')->group(function(){
     Route::patch('/parceiros/{id}', 'landing\\ParceirosController@update')->name('parceirosUpdate.admin');
     Route::delete('/parceiros/{id}', 'landing\\ParceirosController@destroy')->name('parceirosDestroy.admin');
 
+
+    Route::get('/projetos', 'landing\\ProjetosController@index')->name('projetos.admin');
+    Route::get('/projetos/new', 'landing\\ProjetosController@create')->name('prejetoscreate.admin');
+    Route::get('/projetos/{id}', 'landing\\ProjetosController@edit')->name('projetosedit.admin');
+    Route::post('/projetos', 'landing\\ProjetosController@store')->name('prejetosstore.admin');
+    Route::patch('/projetos/{id}', 'landing\\ProjetosController@update')->name('prejetosupdate.admin');
+    Route::delete('/projetos/{id}', 'landing\\ProjetosController@destroy')->name( 'projetosdestroy.admin');
 
 });
 

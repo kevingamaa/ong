@@ -56,7 +56,7 @@ class ParceirosController extends Controller
             $parceiro->nome = $request->nome;
             $parceiro->referencia = $request->referencia;
             $parceiro->save();
-
+            Storage::disk('public')->makeDirectory('parceiros');
             $imagename = md5( date('his') . $parceiro->id) . "." . $request->file->clientExtension();
             Image::make($request->file)->resize(280, 209, function ($constraint) {
                 $constraint->aspectRatio();
