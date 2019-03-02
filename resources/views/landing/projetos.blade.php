@@ -1,7 +1,7 @@
 @extends('layouts.landing') 
 @section('title', 'Projetos')
 @section('content')
-    <section id="fh5co-hero" class="js-fullheight" style="background-image: url(img/850_400_diacriancas.jpg);" data-next="yes">
+    <section id="fh5co-hero" class="js-fullheight" style='background-image: url("{{ asset('landing/img/backgrounds/bg-parceiros.jpg') }}");' data-next="yes">
         <div class="fh5co-overlay"></div>
         <div class="container">
             <div class="fh5co-intro js-fullheight">
@@ -23,7 +23,7 @@
         <div class="fh5co-learn-more animate-box">
             <a href="#" class="scroll-btn">
 				<span class="text">Saiba mais</span>
-				<span class="arrow"><i class="icon-chevron-down"></i></span>
+				<span class="arrow"><i class="fas fa-caret-down"></i></span>
 			</a>
         </div>
     </section>
@@ -38,6 +38,9 @@
                     </p>
                 </div>
             </div>
+
+          
+
             <div class="row text-center">
                 <div class="col-md-3 clearfix"></div>
                 <div class="col-md-6 animate-box">
@@ -65,33 +68,20 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <ul class="fh5co-faq-list">
-                        <li class="animate-box">
-                            <h2>O Centro da Criança e do Adolescente - CCA/SEMEAR</h2>
-                            <p>
-                                Atendemos uma média de 70 crianças e adolescentes (06 a 14 anos) por ano em situação de vulnerabilidade e risco, contribuindo
-                                na sua proteção integral em conjunto com a família e Estado, promovendo o desenvolvimento de
-                                suas potencialidades, a partir de ações sócio educativas.
-                            </p>
-                        </li>
-                        <li class="animate-box">
-                            <h2>Casa Lar e Saica</h2>
-                            <p>
-                                A Casa Lar e Saica atende 30 crianças em acolhimento institucional divididas em duas casas, tendo como prinicipal objetivo
-                                acolhe-las até que tenham sua guarda restabelecida pelo Estado.
-    
-    
-                            </p>
-                        </li>
-                        <li class="animate-box">
-                            <h2>ATIVIDADES</h2>
-    
-                            <p>
-                                &#9679; Esporte e Recreação<br> &#9679; Cidadania, Valores, Direitos e Deveres<br>&#9679; Ensino
-                                de Informática<br> &#9679; Atendimento Psicológico<br> &#9679; Sensibilização Ambiental<br> &#9679;
-                                Passeios Culturais<br> &#9679; Ensino de Música<br> &#9679; Aulas de Inglês
-                            </p>
-    
+                        
+                        @foreach ($projetos as $projeto)
+                            <li class="animate-box">
+                                <h2>{{ $projeto->title }}</h2>
+                                <p>
+                                    @php
+                                        echo $projeto->description
+                                    @endphp
+                                </p>
+                            </li>
+                        @endforeach
+                        
                     </ul>
+                    {{ $projetos->links() }}
                 </div>
             </div>
         </div>

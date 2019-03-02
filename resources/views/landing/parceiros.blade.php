@@ -15,7 +15,7 @@
     <div class="fh5co-learn-more animate-box">
         <a href="#" class="scroll-btn">
             <span class="text">Veja nossos Parceiros</span>
-            <span class="arrow"><i class="icon-chevron-down"></i></span>
+            <span class="arrow"><i class="fas fa-caret-down"></i></span>
         </a>
     </div>
 </section>

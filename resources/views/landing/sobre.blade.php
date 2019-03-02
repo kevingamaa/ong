@@ -17,10 +17,10 @@
             </div>
         </div>
         <div class="fh5co-learn-more animate-box">
-            <a href="javascript:void(0)" class="scroll-btn">
-    					<span class="text">saiba mais</span>
-    					<span class="arrow"><i class="icon-chevron-down"></i></span>
-    				</a>
+            <a href="#" class="scroll-btn">
+                <span class="text">Saiba mais</span>
+                <span class="arrow"><i class="fas fa-caret-down"></i></span>
+            </a>
         </div>
     </section>
     

@@ -17,7 +17,7 @@ class ProjetosController extends Controller
      */
     public function landing()
     {
-        
+        $projetos = Projeto::orderBy('created_at', 'desc')->paginate(1);
         return view('landing.projetos', compact('projetos') );
     }
 

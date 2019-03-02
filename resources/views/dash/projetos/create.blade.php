@@ -30,7 +30,8 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label>Descrição do projeto</label>
-                                    <textarea name="description"  class="form-control" id="" cols="5" rows="3"></textarea>
+                                    <textarea name="description" id="editor" required>
+                                    </textarea>
                                 </div>
                             </div>
                         </div>
@@ -53,6 +54,7 @@
 @endsection
 
 @section('js')
+    <script src="https://cdn.ckeditor.com/ckeditor5/12.0.0/classic/ckeditor.js"></script>   
     <script type="text/javascript" src="{{ asset('dash/js/plugins/bootstrap-fileinput/js/fileinput.min.js') }}"></script>    
     <script type="text/javascript" src="{{ asset('dash/js/plugins/bootstrap-fileinput/js/locales/pt.js') }}"></script>
     <script type="text/javascript">
@@ -66,8 +68,28 @@
                 showUploadedThumbs: true,
                 allowedFileExtensions: ["jpg", "png", "gif"]
             }); 
-
+           
             $('.file-input.file-input-new').find('.btn-file').find('span').html('Procurar')
         })
+
+        ClassicEditor
+            .create( document.querySelector( '#editor' ), { 
+                language: 'pt-br',
+                toolbar: [ 'heading', '|', 'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote' ],
+                    heading: {
+                        options: [
+                            { model: 'paragraph', title: 'Paragraph', class: 'ck-heading_paragraph' },
+                            { model: 'heading1', view: 'h1', title: 'Heading 1', class: 'ck-heading_heading1' },
+                            { model: 'heading2', view: 'h2', title: 'Heading 2', class: 'ck-heading_heading2' }
+                        ]
+                    }
+            })
+            .then( editor => {
+                // console.log( editor);
+            } )
+            .catch( error => {
+                console.error( error );
+            } );
+
     </script>
 @endsection

@@ -12,8 +12,8 @@
                         <h3 class="animate-box">Ajude-nos a continuar este sonho </h3>
                         <p class="animate-box">
                             <button type="button" class="btn btn-primary btn-doar">
-                                    Doar
-                                </button>
+                                Doar
+                            </button>
                         </p>
                     </div>
                 </div>

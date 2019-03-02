@@ -4,6 +4,7 @@ namespace App\Http\Controllers\landing;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Projeto;
 
 class HomeController extends Controller
 {
@@ -14,7 +15,8 @@ class HomeController extends Controller
      */
     public function landing()
     {
-        return view('landing.home');
+        $projetos = Projeto::orderBy('created_at', 'desc')->paginate(3);
+        return view('landing.home', compact('projetos'));
     }
 
     /**
